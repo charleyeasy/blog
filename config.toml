@@ -1,9 +1,9 @@
 baseURL = "https://charleyeasy.github.io/blog/"
-title = "Yusuke Ishimi"
+title = "charleyeasy"
 
 theme = "coder"
 
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "ch"
 
 paginate = 20
 
@@ -15,11 +15,11 @@ pygmentsUseClasses = true
 disqusShortname = "yourdiscussshortname"
 
 [params]
-    author = "Yusuke Ishimi"
-    description = "Yusuke Ishimi's personal website"
+    author = "陳昱元"
+    description = "作品分享、心情點滴、網誌語錄"
     keywords = "blog,developer,personal"
-    info = "WEB AND APPS ENGINEER"
-    avatarurl = "images/avatar.jpg"
+    info = "作品分享、心情點滴、網誌語錄"
+    avatarurl = "img/charley.jpg"
     footercontent = "Enter a text here."
     fixedbarContent = "Do you want to know me more private?→"
     fixedbarContentAfter = "Thank You! Please share it if you like it→"
@@ -74,7 +74,7 @@ disqusShortname = "yourdiscussshortname"
     [languages.en]
         languagecode = "en"
         languagename = "English" # The language name to be displayed in the selector.
-        title = "Yusuke Ishimi"
+        title = "charleyeasy"
 
         # You can configure the theme parameter for each language.
         [languages.en.params]
@@ -101,6 +101,38 @@ disqusShortname = "yourdiscussshortname"
                 url = "projects"
             [[languages.en.menu.main]]
                 name = "Contact me"
+                weight = 5
+                url = "contact"
+    [languages.ch]
+        languagecode = "ch"
+        languagename = "Chinese" # The language name to be displayed in the selector.
+        title = "陳昱元"
+
+        # You can configure the theme parameter for each language.
+        [languages.ch.params]
+            author = "陳昱元"
+            info = "作品分享、心情點滴、網誌語錄"
+            description = "個人網頁"
+            keywords = "blog,developer,personal"
+
+        [languages.ch.menu] # It is possible to change the menu too.
+
+            [[languages.ch.menu.main]]
+                name = "關於我"
+                weight = 1.0
+                url = "top/about"
+
+            [[languages.ch.menu.main]]
+                name = "文章列表"
+                weight = 2.0
+                url = "post"
+
+            [[languages.ch.menu.main]]
+                name = "履歷"
+                weight = 3
+                url = "top"
+            [[languages.ch.menu.main]]
+                name = "聯絡我"
                 weight = 5
                 url = "contact"
 

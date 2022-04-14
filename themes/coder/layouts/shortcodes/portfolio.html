@@ -12,7 +12,7 @@
 
 <div class="portfolio">
     <div class="portfolio-inner">
-        <div class="portfolio-image"><img src="{{ $image }}" alt="{{ $alt }}"></div>
+        <div class="portfolio-image"><img src="{{ $image | relURL }}" alt="{{ $alt }}"></div>
         <div class="portfolio-content">
             {{ .Inner }}
         </div>
