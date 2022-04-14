@@ -1,51 +1,136 @@
 baseURL = "https://charleyeasy.github.io/blog/"
-languageCode = "zh-cn"
-title = "MeiK's blog"
-theme = "github-style"
-googleAnalytics = "UA-123456-789"
-pygmentsCodeFences = true
+title = "Yusuke Ishimi"
+
+theme = "coder"
+
+DefaultContentLanguage = "en"
+
+paginate = 20
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
 pygmentsUseClasses = true
 
-[params]
-  author = "MeiK"
-  description = "In solitude, where we are least alone."
-  github = "MeiK2333"
-  facebook = "MeiK2333"
-  twitter = "MeiK2333"
-  linkedin = "MeiK2333"
-  instagram = "MeiK2333"
-  tumblr = "MeiK2333"
-  email = "meik2333@gmail.com"
-  url = "https://meik2333.com"
-  keywords = "blog, google analytics"
-  rss = true
-  lastmod = true
-  favicon = "/images/github.png"
-  location = "China"
-  userStatusEmoji = "😀"
-  enableGitalk = true
-    
-  [params.gitalk]
-    clientID = "Your client ID" # Your client ID
-    clientSecret = "Your client secret" # Your client secret
-    repo = "LuvSia" # 您的博客的github地址Repository name，例如：xxxx.github.io
-    owner = "ventusoon" # 您的GitHub ID
-    admin = "ventusoon" # 您的GitHub ID
-    id = "location.pathname" # 文章页面的链接地址就是ID
-    labels = "gitalk" # Github issue labels. If you used to use Gitment, you can change it
-    perPage = 15 # Pagination size, with maximum 100.
-    pagerDirection = "last" # Comment sorting direction, available values are 'last' and 'first'.
-    createIssueManually = true # 设置为true，如果是管理员登录，会自动创建issue，如果是false，需要管理员手动添加第一个评论(issue)
-    distractionFreeMode = false # Enable hot key (cmd|ctrl + enter) submit comment.    
-    proxy = "https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token" # 可以自行添加反向代理
-  [[params.links]]
-    title = "Link"
-    href = "https://github.com/meik2333"
-  [[params.links]]
-    title = "Link2"
-    href = "https://meik2333.com"
-    icon = "https://meik2333.com/images/avatar.png"
+disqusShortname = "yourdiscussshortname"
 
-[frontmatter]
-  lastmod = ["lastmod", ":fileModTime", ":default"]
+[params]
+    author = "Yusuke Ishimi"
+    description = "Yusuke Ishimi's personal website"
+    keywords = "blog,developer,personal"
+    info = "WEB AND APPS ENGINEER"
+    avatarurl = "images/avatar.jpg"
+    footercontent = "Enter a text here."
+    fixedbarContent = "Do you want to know me more private?→"
+    fixedbarContentAfter = "Thank You! Please share it if you like it→"
+
+    hideCredits = false
+    hideCopyright = false
+
+    # Bottom sns share
+    snsShare = true
+    # Popular sns share
+    # if you want add sns. please message!
+    enableTwitterShare = true
+    enableFacebookShare = true
+    enableHatenaShare = true
+    enableLineShare = true
+    enableLinkedInShare = true
+
+    thumbnail = "images/tn.png"
+
+    # Custom CSS
+    custom_css = []
+
+    # Alignment of Mobile Menu items
+    itemscentered = true
+
+    # RTL support
+    rtl = false
+
+    langseparator = "|"
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://github.com/naro143/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter"
+    weight = 2
+    url = "https://twitter.com/naro143/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 3
+    url = "https://www.linkedin.com/in/naro143/"
+[[params.social]]
+    name = "LinkedIn"
+    weight = 4
+    url = "https://www.linkedin.com/in/naro143/"
+
+[languages]
+    [languages.en]
+        languagecode = "en"
+        languagename = "English" # The language name to be displayed in the selector.
+        title = "Yusuke Ishimi"
+
+        # You can configure the theme parameter for each language.
+        [languages.en.params]
+            author = "Yusuke Ishimi"
+            info = "WEB AND APPS ENGINEER"
+            description = "Yusuke Ishimi's personal website"
+            keywords = "blog,developer,personal"
+
+        [languages.en.menu] # It is possible to change the menu too.
+
+            [[languages.en.menu.main]]
+                name = "About"
+                weight = 1.0
+                url = "about"
+
+            [[languages.en.menu.main]]
+                name = "Blog"
+                weight = 2.0
+                url = "posts"
+
+            [[languages.en.menu.main]]
+                name = "Projects"
+                weight = 3
+                url = "projects"
+            [[languages.en.menu.main]]
+                name = "Contact me"
+                weight = 5
+                url = "contact"
+
+
+    [languages.ja]
+        languagecode = "ja"
+        languagename = "Japanese"
+        title = "石見 優丞"
+
+        [languages.ja.params]
+            author = "石見 優丞"
+            description = "石見のサイト"
+            keywords = "blog,developer,strona domowa"
+            info = "WEBとアプリのエンジニア"
+
+        [languages.ja.menu]
+            [[languages.ja.menu.main]]
+                name = "テーマについて"
+                weight = 1.0
+                url = "ja/about"
+            [[languages.ja.menu.main]]
+                name = "ブログ"
+                weight = 2.0
+                url = "ja/posts"
+            [[languages.ja.menu.main]]
+                name = "プロジェクト"
+                weight = 3
+                url = "ja/projects"
+            [[languages.ja.menu.main]]
+                name = "お問い合わせ"
+                weight = 5
+                url = "ja/contact"
 
