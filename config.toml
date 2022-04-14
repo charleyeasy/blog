@@ -48,3 +48,8 @@ pygmentsUseClasses = true
 
 [frontmatter]
   lastmod = ["lastmod", ":fileModTime", ":default"]
+=======
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "github-style"
+>>>>>>> 81409814da0d10cf8df9237b1fd76496d82614df
