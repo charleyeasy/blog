@@ -19,8 +19,8 @@ disqusShortname = "yourdiscussshortname"
     description = "作品分享、心情點滴、網誌語錄"
     keywords = "blog,developer,personal"
     info = "作品分享、心情點滴、網誌語錄"
-    avatarurl = "img/charley.jpg"
-    footercontent = "Enter a text here."
+    avatarurl = "img/charley777.JPG"
+    footercontent = "Hope you enjoy."
     fixedbarContent = "Do you want to know me more private?→"
     fixedbarContentAfter = "Thank You! Please share it if you like it→"
 
@@ -51,13 +51,13 @@ disqusShortname = "yourdiscussshortname"
     langseparator = "|"
 
 [[params.social]]
-    name = "Github"
-    icon = "fab fa-github"
+    name = "Facebook"
+    icon = "fab fa-facebook"
     weight = 1
     url = "https://github.com/naro143/"
 [[params.social]]
     name = "Twitter"
-    icon = "fab fa-twitter"
+    icon = "fab fa-instagram"
     weight = 2
     url = "https://twitter.com/naro143/"
 [[params.social]]
@@ -66,7 +66,7 @@ disqusShortname = "yourdiscussshortname"
     weight = 3
     url = "https://www.linkedin.com/in/naro143/"
 [[params.social]]
-    name = "LinkedIn"
+    name = "Friend"
     weight = 4
     url = "https://www.linkedin.com/in/naro143/"
 
@@ -78,31 +78,31 @@ disqusShortname = "yourdiscussshortname"
 
         # You can configure the theme parameter for each language.
         [languages.en.params]
-            author = "Yusuke Ishimi"
-            info = "WEB AND APPS ENGINEER"
-            description = "Yusuke Ishimi's personal website"
-            keywords = "blog,developer,personal"
+            author = "Charley Chen"
+            info = "blog, life, personal"
+            description = "charley's personal website"
+            keywords = "blog,life,personal"
 
         [languages.en.menu] # It is possible to change the menu too.
 
             [[languages.en.menu.main]]
                 name = "About"
-                weight = 1.0
+                weight = 3.0
                 url = "about"
 
             [[languages.en.menu.main]]
                 name = "Blog"
-                weight = 2.0
-                url = "posts"
+                weight = 4.0
+                url = "post"
 
             [[languages.en.menu.main]]
-                name = "Projects"
-                weight = 3
-                url = "projects"
+                name = "autobiography"
+                weight = 2
+                url = "autobiography"
             [[languages.en.menu.main]]
-                name = "Contact me"
-                weight = 5
-                url = "contact"
+                name = "curriculumvitae"
+                weight = 1
+                url = "curriculumvitae"
     [languages.ch]
         languagecode = "ch"
         languagename = "Chinese" # The language name to be displayed in the selector.
@@ -119,25 +119,27 @@ disqusShortname = "yourdiscussshortname"
 
             [[languages.ch.menu.main]]
                 name = "關於我"
-                weight = 1.0
-                url = "top/about"
+                weight = 3.0
+                url = "about"
 
             [[languages.ch.menu.main]]
                 name = "文章列表"
-                weight = 2.0
+                weight = 4.0
                 url = "post"
 
             [[languages.ch.menu.main]]
                 name = "履歷"
-                weight = 3
-                url = "top"
-            [[languages.ch.menu.main]]
-                name = "聯絡我"
-                weight = 5
-                url = "contact"
+                weight = 2
+                url = "curriculumvitae"
+            
+	    [[languages.ch.menu.main]]
+                name = "自傳"
+                weight = 2
+                url = "autobiography"
+		
 
 
-    [languages.ja]
+    #[languages.ja]
         languagecode = "ja"
         languagename = "Japanese"
         title = "石見 優丞"

@@ -2,7 +2,7 @@
 畢竟我是一個很喜歡打遊戲的人  
 這裡來記錄一下我打的各個遊戲ㄅ
 ***
-![](/img/cven.jpg)  
+![](/blog/img/cven.jpg)  
 ***
 * # 中文履歷
-![](/img/cvcn.jpg)  
+![](/blog/img/cvcn.jpg)  
