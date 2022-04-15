@@ -61,6 +61,7 @@
 
 ***
 ### 音樂
+* ##### [ヒステリックナイトガール ─ PSYQUI](https://www.youtube.com/watch?v=HV4iTnWg3Z0)
 * ##### [Monologue ─ 美波](https://www.youtube.com/watch?v=jDGvaQMdPdg)
 * ##### [失蹤人口 ─ 甜約翰](https://www.youtube.com/watch?v=djACkCHl3JA)
 * ##### [満ちていく体温 ─ BLU-SWING](https://www.youtube.com/watch?v=0VBHq4PJvbM)
