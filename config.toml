@@ -22,7 +22,7 @@ disqusShortname = "yourdiscussshortname"
     avatarurl = "img/charley777.JPG"
     footercontent = "Hope you enjoy."
     fixedbarContent = "Do you want to know me more private?→"
-    fixedbarContentAfter = "Thank You! Please share it if you like it→"
+    fixedbarContentAfter = "Thank You! →"
 
     hideCredits = false
     hideCopyright = false
@@ -33,9 +33,9 @@ disqusShortname = "yourdiscussshortname"
     # if you want add sns. please message!
     enableTwitterShare = true
     enableFacebookShare = true
-    enableHatenaShare = true
-    enableLineShare = true
-    enableLinkedInShare = true
+    enableInstagramShare = true
+    enableinstShare = true
+    #enableLinkedInShare = true
 
     thumbnail = "images/tn.png"
 
@@ -54,30 +54,32 @@ disqusShortname = "yourdiscussshortname"
     name = "Facebook"
     icon = "fab fa-facebook"
     weight = 1
-    url = "https://github.com/naro143/"
+    url = "https://www.facebook.com/charleyeasy/"
 [[params.social]]
     name = "Twitter"
     icon = "fab fa-instagram"
     weight = 2
-    url = "https://twitter.com/naro143/"
-[[params.social]]
-    name = "LinkedIn"
-    icon = "fab fa-linkedin"
-    weight = 3
-    url = "https://www.linkedin.com/in/naro143/"
+    url = "https://www.instagram.com/charleyeasy/"
+#[[params.social]]
+    #name = "mail"
+    #icon = "fab fa-github"
+    #weight = 3
+    #url = "https://www.linkedin.com/in/naro143/"
 [[params.social]]
     name = "Friend"
     weight = 4
-    url = "https://www.linkedin.com/in/naro143/"
+    url = "https://yagami.dev/"
 
 [languages]
     [languages.en]
         languagecode = "en"
+	contentDir = 'content/en'
+	#baseURL = "https://charleyeasy.github.io/blog.en"
         languagename = "English" # The language name to be displayed in the selector.
         title = "charleyeasy"
 
         # You can configure the theme parameter for each language.
-        [languages.en.params]
+        [languages.en.params]	
             author = "Charley Chen"
             info = "blog, life, personal"
             description = "charley's personal website"
@@ -88,7 +90,7 @@ disqusShortname = "yourdiscussshortname"
             [[languages.en.menu.main]]
                 name = "About"
                 weight = 3.0
-                url = "about"
+                url = "en/about"
 
             [[languages.en.menu.main]]
                 name = "Blog"
@@ -140,17 +142,17 @@ disqusShortname = "yourdiscussshortname"
 
 
     #[languages.ja]
-        languagecode = "ja"
-        languagename = "Japanese"
-        title = "石見 優丞"
+        #languagecode = "ja"
+        #languagename = "Japanese"
+        #title = "石見 優丞"
 
-        [languages.ja.params]
+        #[languages.ja.params]
             author = "石見 優丞"
             description = "石見のサイト"
             keywords = "blog,developer,strona domowa"
             info = "WEBとアプリのエンジニア"
 
-        [languages.ja.menu]
+        #[languages.ja.menu]
             [[languages.ja.menu.main]]
                 name = "テーマについて"
                 weight = 1.0
