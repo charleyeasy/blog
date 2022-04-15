@@ -102,9 +102,14 @@ disqusShortname = "yourdiscussshortname"
                 weight = 2
                 url = "autobiography"
             [[languages.en.menu.main]]
-                name = "curriculumvitae"
+                name = "curriculum vitae"
                 weight = 1
                 url = "curriculumvitae"
+
+            [[languages.en.menu.main]]
+                name = "sketch diary"
+                weight = 5
+                url = "sketch"
     [languages.ch]
         languagecode = "ch"
         languagename = "Chinese" # The language name to be displayed in the selector.
@@ -138,6 +143,11 @@ disqusShortname = "yourdiscussshortname"
                 name = "自傳"
                 weight = 2
                 url = "autobiography"
+
+	    [[languages.ch.menu.main]]
+                name = "速寫日記"
+                weight = 5
+                url = "sketch"
 		
 
 
