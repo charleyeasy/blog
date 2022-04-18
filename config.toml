@@ -26,6 +26,7 @@ disqusShortname = "yourdiscussshortname"
 
     hideCredits = false
     hideCopyright = false
+    math = true
 
     # Bottom sns share
     snsShare = true
