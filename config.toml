@@ -90,12 +90,12 @@ disqusShortname = "yourdiscussshortname"
 
             [[languages.en.menu.main]]
                 name = "About"
-                weight = 3.0
+                weight = 4
                 url = "en/about"
 
             [[languages.en.menu.main]]
                 name = "Blog"
-                weight = 4.0
+                weight = 5
                 url = "post"
 
             [[languages.en.menu.main]]
@@ -106,10 +106,14 @@ disqusShortname = "yourdiscussshortname"
                 name = "curriculum vitae"
                 weight = 1
                 url = "curriculumvitae"
+            [[languages.en.menu.main]]
+                name = "transcript"
+                weight = 3
+                url = "transcript"
 
             [[languages.en.menu.main]]
                 name = "sketch diary"
-                weight = 5
+                weight = 6
                 url = "sketch"
     [languages.ch]
         languagecode = "ch"
@@ -127,27 +131,32 @@ disqusShortname = "yourdiscussshortname"
 
             [[languages.ch.menu.main]]
                 name = "關於我"
-                weight = 3.0
+                weight = 4
                 url = "about"
 
             [[languages.ch.menu.main]]
                 name = "文章列表"
-                weight = 4.0
+                weight = 5
                 url = "post"
 
             [[languages.ch.menu.main]]
                 name = "履歷"
-                weight = 2
+                weight = 1
                 url = "curriculumvitae"
             
-	    [[languages.ch.menu.main]]
+            [[languages.ch.menu.main]]
                 name = "自傳"
                 weight = 2
                 url = "autobiography"
 
+            [[languages.ch.menu.main]]
+                name = "成績單"
+                weight = 3
+                url = "transcript"
+
 	    [[languages.ch.menu.main]]
                 name = "速寫日記"
-                weight = 5
+                weight = 6
                 url = "sketch"
 		
 
