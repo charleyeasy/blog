@@ -49,11 +49,11 @@
 ### 興趣
 
 ##### 畫畫：
-![](/blog/img/makima.jpg)  
+[![](/blog/img/makima.jpg)](https://www.instagram.com/aromaticlily.3/)  
 * [作品連結](https://www.instagram.com/aromaticlily.3/) 
 
 ##### 貝斯：
-![](/blog/img/bass.jpg)  
+[![](/blog/img/bass.jpg)](https://www.youtube.com/watch?v=GXDESnj7Gy0)  
 * 團名：安平之鬼
 
 ##### 排球：
