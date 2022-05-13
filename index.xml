@@ -1,4 +1,105 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>陳昱元</title><link>https://charleyeasy.github.io/blog/</link><description>Recent content on 陳昱元</description><generator>Hugo -- gohugo.io</generator><language>ch</language><lastBuildDate>Thu, 12 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://charleyeasy.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Sketching Day24</title><link>https://charleyeasy.github.io/blog/en/sketch/2022-05-12-day24/</link><pubDate>Thu, 12 May 2022 00:00:00 +0000</pubDate><guid>https://charleyeasy.github.io/blog/en/sketch/2022-05-12-day24/</guid><description>&lt;hr>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>陳昱元</title><link>https://charleyeasy.github.io/blog/</link><description>Recent content on 陳昱元</description><generator>Hugo -- gohugo.io</generator><language>ch</language><lastBuildDate>Fri, 13 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://charleyeasy.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Sketching Day25</title><link>https://charleyeasy.github.io/blog/en/sketch/2022-05-13-day25/</link><pubDate>Fri, 13 May 2022 00:00:00 +0000</pubDate><guid>https://charleyeasy.github.io/blog/en/sketch/2022-05-13-day25/</guid><description>&lt;hr>
+&lt;p>source：赤倉&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://twitter.com/akakura1341">twitter&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://charleyeasy.github.io/blog/blog/sketch/d25-1.jpg" alt="">&lt;/p>
+&lt;hr>
+&lt;p>I&amp;rsquo;ll keep practicing.&lt;/p></description></item><item><title>速寫 Day25</title><link>https://charleyeasy.github.io/blog/sketch/2022-05-13-day25/</link><pubDate>Fri, 13 May 2022 00:00:00 +0000</pubDate><guid>https://charleyeasy.github.io/blog/sketch/2022-05-13-day25/</guid><description>&lt;hr>
+&lt;p>來源：赤倉&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://twitter.com/akakura1341">作者推特&lt;/a>&lt;br>
+&lt;img src="https://charleyeasy.github.io/blog/blog/sketch/d25-1.jpg" alt="">&lt;/li>
+&lt;/ul>
+&lt;p>頂上戰爭&lt;br>
+統動大戰&lt;br>
+我還在看&lt;/p>
+&lt;hr>
+&lt;h4 id="今日日文單字">今日日文單字：&lt;/h4>
+&lt;ul>
+&lt;li>見るに堪（た）えない ─ 不忍直視&lt;/li>
+&lt;li>NというN ─ &lt;strong>強調&lt;/strong>&lt;/li>
+&lt;li>N&lt;strong>ぶる／ぶって／ぶった&lt;/strong>N ─ 裝作&lt;/li>
+&lt;li>N&lt;strong>ぶり&lt;/strong> ─ 從&amp;hellip;&lt;/li>
+&lt;li>&lt;strong>Vる／Nだに&lt;/strong> ─ 光是&lt;/li>
+&lt;li>こととて ─ 因為&amp;hellip;&lt;/li>
+&lt;li>昔（むかし）ほど&lt;strong>恐れるに足らない&lt;/strong> ─ 與以前相比&lt;strong>不足為懼&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>ご心配には及びません&lt;/strong> ─ 不必擔心&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h4 id="稍微的筆記">稍微的筆記&lt;/h4>
+&lt;h5 id="ch34-pricing-financial-forwards-and-futures">ch34 Pricing Financial Forwards and Futures:&lt;/h5>
+&lt;h5 id="value-of-a-forward-contract">Value of a Forward Contract:&lt;/h5>
+&lt;ul>
+&lt;li>The &lt;strong>forward price&lt;/strong> at every moment in time is computed to prevent arbitrage, the value at inception of the contract must be zero.&lt;/li>
+&lt;li>If we denote the obligated delivery price after inception as K, then the &lt;strong>value of long contract&lt;/strong> on an asset &lt;strong>with an annual dividend yield of q&lt;/strong> is computed as: \(\dfrac{S}{(1+q)^T}-\dfrac{K}{(1+r)^T}\)&lt;/li>
+&lt;li>If interest rates rise, then the &lt;strong>underlying assets&lt;/strong> will fall in value. That is, there&amp;rsquo;s a loss on both futures and forwards contracts. However, with &lt;strong>futures&lt;/strong>, a loss from an asset price decrease will be &lt;strong>recognized immediately&lt;/strong> (due to &lt;strong>daily settlement&lt;/strong>). In that regard, a &lt;strong>forward contract is more desirable&lt;/strong> and would be price higher.&lt;/li>
+&lt;/ul>
+&lt;h5 id="ch35-commodity-forwards-and-futures">ch35 Commodity Forwards and Futures:&lt;/h5>
+&lt;ul>
+&lt;li>Commodities prices tend to be &lt;strong>mean-reverting&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;h5 id="energy">Energy:&lt;/h5>
+&lt;ul>
+&lt;li>
+&lt;ol>
+&lt;li>Crude oil: easy to transport.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="2">
+&lt;li>Natural gas: is &lt;strong>expensive to store&lt;/strong>.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="3">
+&lt;li>&lt;strong>Electricity: is not generally a storable commodity.&lt;/strong> Due to that, &lt;strong>arbitrage opportunities do not exist with electricity.&lt;/strong> In other words, &lt;strong>futures prices on electricity can be much more volatile than financial futures&lt;/strong>.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;h5 id="commodity-arbitrage">Commodity Arbitrage:&lt;/h5>
+&lt;ul>
+&lt;li>The makets for those commodities that are &lt;strong>storable&lt;/strong> are called as &lt;strong>carry markets&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>cash-and-carry arbitrage:&lt;/strong>&lt;/li>
+&lt;li>
+&lt;ol>
+&lt;li>\(F_{0,T}=(S_0+U)\times(1+r)^T\), where U implys storage costs.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="2">
+&lt;li>\(F_{0,T}=(S_0-I)\times(1+r)^T\), where I implys income(or we can say the storage costs are negative.)&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="3">
+&lt;li>The commodity forward price &lt;strong>with an active lease market&lt;/strong> is expressed as: $$F_{0,T}=S_0\times[\dfrac{(1+r)}{(1+\delta)}]^T$$, where \(\delta \) implys lease rate.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="4">
+&lt;li>The forward price including a &lt;strong>convenience yield&lt;/strong> is calculated as: $$F_{0,T}\geq (S_0+U)\times[\dfrac{(1+r)}{(1+Y)}]^T$$, where Y implys annualized convenience yield.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>&lt;strong>Convenience Yield&lt;/strong> (便利孳息) : The nonmonetary benefit of holding excess inventory. (which is only &lt;strong>relevant&lt;/strong> (有效) when &lt;strong>a commodity is stored&lt;/strong>. e.g., in a carry market.)&lt;/li>
+&lt;li>&lt;strong>Lease rate&lt;/strong> is similar to the &lt;strong>dividend payment&lt;/strong> in a financial forward, which can be &lt;strong>negative.&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h5 id="futures-prices-and-expected-spot-prices">Futures Prices and Expected Spot Prices:&lt;/h5>
+&lt;ul>
+&lt;li>\(E(S_T)=F\dfrac{(1+X)^T}{(1+r)^T}\), where X implys expected return on futures position.&lt;/li>
+&lt;li>Recall that &lt;strong>Systematic risk&lt;/strong> is a function of the &lt;strong>correlation btw the return on the market versus the underlying asset.&lt;/strong> If the correlation is positive, then &lt;strong>X should exceed r.&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Normal backwardation&lt;/strong> (正常倒退): If the correlation is positive, X &amp;gt; r, thus &lt;strong>\(E(S_T)&amp;gt;F\)&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Contango&lt;/strong> (期貨升水): If the correlation is negative, \(E(S_T)&amp;lt;F\).&lt;br>
+&lt;img src="https://www.danielstrading.com/wp-content/uploads/2017/03/contango.png" alt="">&lt;/li>
+&lt;/ul>
+&lt;h4 id="今日其他進度">今日其他進度：&lt;/h4>
+&lt;ul>
+&lt;li>日文N1文法、N1題目&lt;/li>
+&lt;li>FRM ebook ch34 35&lt;/li>
+&lt;li>一堆的動畫&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>我會繼續努力的。&lt;/p></description></item><item><title>Sketching Day24</title><link>https://charleyeasy.github.io/blog/en/sketch/2022-05-12-day24/</link><pubDate>Thu, 12 May 2022 00:00:00 +0000</pubDate><guid>https://charleyeasy.github.io/blog/en/sketch/2022-05-12-day24/</guid><description>&lt;hr>
 &lt;p>source：赤倉&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://twitter.com/akakura1341">twitter&lt;/a>&lt;/li>
