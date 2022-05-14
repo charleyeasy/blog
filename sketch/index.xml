@@ -1,4 +1,148 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sketches on 陳昱元</title><link>https://charleyeasy.github.io/blog/sketch/</link><description>Recent content in Sketches on 陳昱元</description><generator>Hugo -- gohugo.io</generator><language>ch</language><lastBuildDate>Fri, 13 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://charleyeasy.github.io/blog/sketch/index.xml" rel="self" type="application/rss+xml"/><item><title>速寫 Day25</title><link>https://charleyeasy.github.io/blog/sketch/2022-05-13-day25/</link><pubDate>Fri, 13 May 2022 00:00:00 +0000</pubDate><guid>https://charleyeasy.github.io/blog/sketch/2022-05-13-day25/</guid><description>&lt;hr>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sketches on 陳昱元</title><link>https://charleyeasy.github.io/blog/sketch/</link><description>Recent content in Sketches on 陳昱元</description><generator>Hugo -- gohugo.io</generator><language>ch</language><lastBuildDate>Sat, 14 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://charleyeasy.github.io/blog/sketch/index.xml" rel="self" type="application/rss+xml"/><item><title>速寫 Day26</title><link>https://charleyeasy.github.io/blog/sketch/2022-05-14-day26/</link><pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate><guid>https://charleyeasy.github.io/blog/sketch/2022-05-14-day26/</guid><description>&lt;hr>
+&lt;p>來源：赤倉&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://twitter.com/akakura1341">作者推特&lt;/a>&lt;br>
+&lt;img src="https://charleyeasy.github.io/blog/blog/sketch/d26-1.jpg" alt="">&lt;/li>
+&lt;/ul>
+&lt;p>恭喜PSG晉級~&lt;/p>
+&lt;p>最近uber eat用了優響方案&lt;br>
+第一個月免費&lt;br>
+所以我打算快到期前&lt;br>
+再解除方案&lt;br>
+爽薛&lt;br>
+西西&amp;gt;&amp;lt;&lt;/p>
+&lt;p>然後今天吃了鴨肉許&lt;br>
+超飽==&lt;/p>
+&lt;hr>
+&lt;h4 id="今日日文單字">今日日文單字：&lt;/h4>
+&lt;ul>
+&lt;li>冗談（じょうだん）はさておき ─ 先不開玩笑了，&amp;hellip;&lt;/li>
+&lt;li>結果（けっか）&lt;strong>はどうあれ&lt;/strong>、悔（く）いはない ─ &lt;strong>不管結果如何&lt;/strong>，我不後悔。&lt;/li>
+&lt;li>どんな理由（りゆう）&lt;strong>であれ&lt;/strong> ─ &lt;strong>無論何種理由&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Nはおろか～（も／まで／すら）&lt;/strong> ─ 別說N了，連&amp;hellip;&lt;/li>
+&lt;li>Nなら（は）&lt;strong>いざ知らず&lt;/strong> ─ N的話不知道&lt;/li>
+&lt;li>&lt;strong>嘆（なげ）くにはあたらない&lt;/strong> ─ &lt;strong>用不著&lt;/strong>唉聲嘆氣&lt;/li>
+&lt;li>想像（そうぞう）&lt;strong>に難（かた）くない&lt;/strong> ─ &lt;strong>不難&lt;/strong>想像&lt;/li>
+&lt;li>願（ねが）っ／祈（いの）っ／信（しん）じ／尊敬（そんけい）&lt;strong>てやまない&lt;/strong> ─ &lt;strong>無比&lt;/strong>祝福、祈願、相信、尊敬&lt;/li>
+&lt;li>&lt;strong>汚職（おしょく）でなくてなんだろう&lt;/strong> ─ 不是貪汙是甚麼&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h4 id="稍微的筆記">稍微的筆記&lt;/h4>
+&lt;h5 id="ch36-option-markets">ch36 Option Markets&lt;/h5>
+&lt;ul>
+&lt;li>out-of-the-market: &lt;strong>Intrinsic value = 0&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h5 id="underlying-assets">Underlying Assets:&lt;/h5>
+&lt;ul>
+&lt;li>
+&lt;ol>
+&lt;li>&lt;strong>Stock options&lt;/strong>: Typically &lt;strong>exchange-traded and American-style options&lt;/strong>. Each optoin contract is normally for &lt;strong>100 shares&lt;/strong> of stock.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="2">
+&lt;li>&lt;strong>Index options&lt;/strong>: Typically &lt;strong>European-style options&lt;/strong> and are &lt;strong>cash settled&lt;/strong>. Also, Index options can be found on both OTC and exchange-traded markets.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="3">
+&lt;li>&lt;strong>ETF options&lt;/strong>: Typically &lt;strong>American-style options&lt;/strong> and &lt;strong>utilize delivery of shares&lt;/strong> rather than cash at settlement.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;h5 id="option-expiration">Option Expiration:&lt;/h5>
+&lt;ul>
+&lt;li>
+&lt;ol>
+&lt;li>actual day of expiration is &lt;strong>the third Friday of the expiration month&lt;/strong>.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="2">
+&lt;li>&lt;strong>Before&lt;/strong> the third Friday of the expiration month, maturities are &lt;strong>current month, the following month, and the next two months in the 3-months circle.&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="3">
+&lt;li>&lt;strong>After&lt;/strong> the third Friday of the expiration month, maturities are &lt;strong>next month, the month after that, and the next two months in the 3-months circle.&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>be dictated by ─ 主宰&lt;/li>
+&lt;li>increments ─ 增量&lt;/li>
+&lt;/ul>
+&lt;h5 id="nonstandard-products">Nonstandard Products&lt;/h5>
+&lt;ul>
+&lt;li>
+&lt;ol>
+&lt;li>&lt;strong>FLEX options&lt;/strong>: flexible exchange options are &lt;strong>exchange-traded options on equity indices and equities&lt;/strong> that allow some &lt;strong>alteration of the options contract specifications.&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="2">
+&lt;li>&lt;strong>Asian options&lt;/strong>: generate payoffs calculated on &lt;strong>the average price&lt;/strong> of the underlying for &lt;strong>the life of the option.&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="3">
+&lt;li>&lt;strong>Cliquet options&lt;/strong>: generate payoffs calculated as &lt;strong>the sum of the monthly capped return&lt;/strong> earned by the asset.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;h5 id="margin-requirements">Margin Requirements&lt;/h5>
+&lt;ul>
+&lt;li>Option with maturities of nine months or fewer &lt;strong>cannot be purchased on margin&lt;/strong> (保證金&lt;strong>開槓桿&lt;/strong>). This is because the leverage would be too high.&lt;/li>
+&lt;li>&lt;strong>Uncovered calls&lt;/strong> (those in which the writer doesn&amp;rsquo;t &lt;strong>own a position in the underlying asset&lt;/strong>.)&lt;/li>
+&lt;/ul>
+&lt;h5 id="other-option-like-securities">Other Option-Like Securities:&lt;/h5>
+&lt;ul>
+&lt;li>
+&lt;ol>
+&lt;li>&lt;strong>Warrants&lt;/strong> (認股權)&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="2">
+&lt;li>&lt;strong>Employee stock options&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="3">
+&lt;li>&lt;strong>Convertible bonds&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;h5 id="conclusion">Conclusion:&lt;/h5>
+&lt;ul>
+&lt;li>
+&lt;ol>
+&lt;li>Position limits are usually &lt;strong>the same as&lt;/strong> exercise limits.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="2">
+&lt;li>Writing &lt;strong>covered calls&lt;/strong> doesn&amp;rsquo;t require any margin.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="3">
+&lt;li>Options are adjusted for &lt;strong>stock dividends (stock split)&lt;/strong>, not &lt;strong>cash dividends&lt;/strong>.&lt;br>
+For instance, if a stock experiences a &lt;strong>b-for-a split&lt;/strong>, &lt;strong>the number of shares&lt;/strong> underlying the option \(\times \space \dfrac{b}{a}\), and the &lt;strong>strike price&lt;/strong> becomes \(\times \space \dfrac{a}{b}\) .&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="4">
+&lt;li>&lt;strong>LEAPS (Long-term equity anticipation securities)&lt;/strong> expire on the third Friday of &lt;strong>January of each year&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="今日其他進度">今日其他進度：&lt;/h4>
+&lt;ul>
+&lt;li>日文N1文法、N1題目&lt;/li>
+&lt;li>FRM ebook ch36&lt;/li>
+&lt;li>一堆的動畫&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>我會繼續努力的。&lt;/p></description></item><item><title>速寫 Day25</title><link>https://charleyeasy.github.io/blog/sketch/2022-05-13-day25/</link><pubDate>Fri, 13 May 2022 00:00:00 +0000</pubDate><guid>https://charleyeasy.github.io/blog/sketch/2022-05-13-day25/</guid><description>&lt;hr>
 &lt;p>來源：赤倉&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://twitter.com/akakura1341">作者推特&lt;/a>&lt;br>
