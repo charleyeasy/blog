@@ -1,4 +1,188 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sketches on 陳昱元</title><link>https://charleyeasy.github.io/blog/sketch/</link><description>Recent content in Sketches on 陳昱元</description><generator>Hugo -- gohugo.io</generator><language>ch</language><lastBuildDate>Sat, 14 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://charleyeasy.github.io/blog/sketch/index.xml" rel="self" type="application/rss+xml"/><item><title>速寫 Day26</title><link>https://charleyeasy.github.io/blog/sketch/2022-05-14-day26/</link><pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate><guid>https://charleyeasy.github.io/blog/sketch/2022-05-14-day26/</guid><description>&lt;hr>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sketches on 陳昱元</title><link>https://charleyeasy.github.io/blog/sketch/</link><description>Recent content in Sketches on 陳昱元</description><generator>Hugo -- gohugo.io</generator><language>ch</language><lastBuildDate>Sun, 15 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://charleyeasy.github.io/blog/sketch/index.xml" rel="self" type="application/rss+xml"/><item><title>速寫 Day27</title><link>https://charleyeasy.github.io/blog/sketch/2022-05-15-day27/</link><pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate><guid>https://charleyeasy.github.io/blog/sketch/2022-05-15-day27/</guid><description>&lt;hr>
+&lt;p>來源：むっしゅ&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.pixiv.net/artworks/76717399">作品連結&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/omu001">作者推特&lt;/a>&lt;br>
+&lt;img src="https://charleyeasy.github.io/blog/blog/sketch/d27-1.jpg" alt="">&lt;/li>
+&lt;/ul>
+&lt;p>今天一直下雨啊==&lt;br>
+不然想去買公寓鹽酥雞配啤酒的&lt;br>
+放縱DAY&lt;/p>
+&lt;p>結果今天也沒發生什麼大事。&lt;br>
+最有趣的應該是LNG了&lt;br>
+真的快笑死&lt;/p>
+&lt;hr>
+&lt;h4 id="今日日文單字">今日日文單字：&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>～でも差（さ）し支（つか）えない&lt;/strong>／&lt;strong>ありません&lt;/strong> ─ ~&lt;strong>也沒關係&lt;/strong>&lt;/li>
+&lt;li>もし&lt;strong>差し支えないようでしたら&lt;/strong> ─ 如果沒什麼影響的話&lt;/li>
+&lt;li>用心（ようじん）する&lt;strong>に越（こ）したことはない&lt;/strong> ─ &lt;strong>小心為上&lt;/strong> (比小心更重要的事不存在)&lt;/li>
+&lt;li>安けれ&lt;strong>ば&lt;/strong>安い&lt;strong>に越したことはない&lt;/strong> ─ 能便宜當然便宜最好&lt;/li>
+&lt;li>数（かぞ）えれ&lt;strong>ばきりがない&lt;/strong> ─ 數也數不完&lt;/li>
+&lt;li>Nを禁（きん）じ得ない ─ &lt;strong>不禁&lt;/strong>感到N&lt;/li>
+&lt;li>Nを余儀（よぎ）なくされた ─ &lt;strong>不得不&lt;/strong>N&lt;/li>
+&lt;li>&lt;strong>Vる嫌（きら）いがある&lt;/strong> ─ &lt;strong>往不好的傾向&lt;/strong>&lt;/li>
+&lt;li>彼は考えすぎる&lt;strong>嫌いがある&lt;/strong> ─ 最近想的總有點多&lt;/li>
+&lt;li>若者は&lt;strong>協調性（きょうちょうせい）&lt;strong>に&lt;/strong>欠（か）ける&lt;/strong>嫌いがある ─ 年輕人較為缺乏&lt;strong>團隊精神&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Vる始末（しまつ）だ&lt;/strong> ─ 最終V了&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h4 id="稍微的筆記">稍微的筆記&lt;/h4>
+&lt;h5 id="ch37-properties-of-options">ch37 Properties of Options&lt;/h5>
+&lt;h5 id="formula">Formula&lt;/h5>
+&lt;ul>
+&lt;li>\(C=Se^{-qt}N(d_1)-Ke^{-rt}N(d_2)\)&lt;/li>
+&lt;li>\(P=Ke^{-rt}N(-d_2)-Se^{-qt}N(-d_1)\)&lt;/li>
+&lt;li>An &lt;strong>increase in the dividend (q)&lt;/strong>, a lower risk-free interest rate, and a lower volatility of the price of the underlying stock will all &lt;strong>decrease the value of a European call option&lt;/strong>.&lt;/li>
+&lt;li>After a stock split, both stock price and the strike price will be adjusted, so the &lt;strong>value of the option position will be the same.&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h5 id="pricing-bounds">Pricing Bounds:&lt;/h5>
+&lt;ul>
+&lt;li>
+&lt;ol>
+&lt;li>Upper bounds:
+\(c\leq S_0 \space and\space C\leq S_0\);
+\(p\leq PV(X)\space and \space P\leq X\)&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="2">
+&lt;li>Lower bounds for &lt;strong>European Calls on Non-Dividend-Paying&lt;/strong> Stocks: \(c\geq max(S_0-PV(X),0)\)&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="3">
+&lt;li>Lower bounds for &lt;strong>European Puts on Non-Dividend-Paying&lt;/strong> Stocks: \(p\geq max(PV(X)-S_0,0)\)&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="4">
+&lt;li>&lt;strong>Put-Call Parity&lt;/strong>: \(c-p=S_0-PV(X)\)&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="5">
+&lt;li>Lower bounds for &lt;strong>American Calls on Non-Dividend-Paying&lt;/strong> Stocks: \(C\geq c\geq max(S_0-PV(X),0)\)&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="6">
+&lt;li>Lower bounds for &lt;strong>American Puts on Non-Dividend-Paying&lt;/strong> Stocks: \(P\geq max(X-S_0,0)\)&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="7">
+&lt;li>&lt;strong>Put-Call Parity American version&lt;/strong>: \(S_0-X\leq C-P\leq S_0-PV(X)\)&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;h5 id="pricing-bounds-with-the-impact-of-dividends">Pricing Bounds with the impact of Dividends:&lt;/h5>
+&lt;ul>
+&lt;li>
+&lt;ol>
+&lt;li>\(c\geq max(S_0-D-PV(X),0)\)&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="2">
+&lt;li>\(p\geq max(D+PV(X)-S_0,0)\)&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="3">
+&lt;li>Put-Call Parity: \(p+S_0=c+D+PV(X)\)&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="4">
+&lt;li>Put-Call Parity &lt;strong>American version&lt;/strong>: \(S_0-X-D\leq C-P\leq S_0-PV(X)\)&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;h5 id="note">NOTE:&lt;/h5>
+&lt;ul>
+&lt;li>When the dividend is large enough, American calls might be &lt;strong>optimally exercised early&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Fiduciary call&lt;/strong>(信託買權): a combination of a &lt;strong>pure-discount&lt;/strong> (zero coupon) &lt;strong>riskless bond&lt;/strong> and a call.&lt;/li>
+&lt;li>&lt;strong>Protective put&lt;/strong>: a share of stock together with a put option.&lt;/li>
+&lt;/ul>
+&lt;h5 id="ch38-trading-strategies">ch38 Trading Strategies:&lt;/h5>
+&lt;ul>
+&lt;li>
+&lt;ol>
+&lt;li>&lt;strong>Protective Put&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="2">
+&lt;li>&lt;strong>Covered Call&lt;/strong>: purchase of stock + sale of call.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="3">
+&lt;li>&lt;strong>Principal protected notes&lt;/strong> (PPNs): are securities that are generated from one option.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="4">
+&lt;li>&lt;strong>Bull/Bear spread&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="5">
+&lt;li>&lt;strong>Butterfly spread&lt;/strong>: involves purchase or sale of &lt;strong>three different call options.&lt;/strong>&lt;br>
+\(Long\space X_1\space and\space X_3,\space and\space Short\space Two \space X_2\)
+&lt;img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Long_butterfly_option.svg/1200px-Long_butterfly_option.svg.png" alt="">&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="6">
+&lt;li>&lt;strong>Calender Spreads&lt;/strong>: created by transacting in two options that have &lt;strong>the same strike price but different expirations.&lt;/strong>
+&lt;img src="https://i.stack.imgur.com/rFyER.png" alt="">&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="7">
+&lt;li>&lt;strong>Diagonal Spreads&lt;/strong>: similar to a calendar spread, but a diagonal spread can have &lt;strong>different strike prices.&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="8">
+&lt;li>&lt;strong>Box Spreads&lt;/strong>: a combination of a bull call spread and a bear put spread.
+&lt;img src="https://www.researchgate.net/profile/Mohamed-Tailab/publication/313238749/figure/fig11/AS:889814501048322@1589159717699/Payoff-from-box-spread.png" alt="">&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="9">
+&lt;li>&lt;strong>Straddle&lt;/strong>: purchasing a call and a put with the same strike price.
+&lt;img src="https://assets-global.website-files.com/5fba23eb8789c3c7fcfb5f31/6002ed449057fe4ede527297_689X6zELX7Vg-_Dy_LPUWX7cpPmJW0oBPJKiEGz7_uSeuuh-wsLO0-UqexuWV7avY9ZTK1u9uL-XDo7OK_5AO9CUsNSBWWKaJJ3GhPfYByh3wELRdOnDbr9z1cPQ_yyAcvPghJbd.png" alt="">&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="10">
+&lt;li>&lt;strong>Strangle&lt;/strong>: similar to a straddle, except that the options purchased are slightly out-of-the-money. (different strike price.)
+&lt;img src="https://assets-global.website-files.com/5fba23eb8789c3c7fcfb5f31/600339950bbfc78620b5e70e_O0vLM6xXaLEXx915F-XbkmHexFc-sTJo9XD1BY3zFiB4q5i6HXSN8_lv8E4RTmabFiB3XSONTB5QoQeTwOpJs35xt11E9xlnmCyoFn8vzpdw8vmp2FuzQzKRu0O0XYyCfzEAPwmo.jpeg" alt="">&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="11">
+&lt;li>&lt;strong>Strip&lt;/strong>: &lt;strong>purchasing two puts&lt;/strong> and &lt;strong>one call&lt;/strong> with the same strike price and expiration.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="12">
+&lt;li>&lt;strong>Strap&lt;/strong>: &lt;strong>purchasing two calls&lt;/strong> and &lt;strong>one put&lt;/strong> with the same strike price and expiration.
+&lt;img src="https://secureservercdn.net/160.153.137.14/w4o.1e1.myftpupload.com/wp-content/uploads/2020/01/Screenshot-2020-01-23-at-21.31.23-1024x463.png" alt="">&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="今日其他進度">今日其他進度：&lt;/h4>
+&lt;ul>
+&lt;li>日文N1文法、N1題目&lt;/li>
+&lt;li>FRM ebook ch37 38&lt;/li>
+&lt;li>一堆的動畫&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>我會繼續努力的。&lt;/p></description></item><item><title>速寫 Day26</title><link>https://charleyeasy.github.io/blog/sketch/2022-05-14-day26/</link><pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate><guid>https://charleyeasy.github.io/blog/sketch/2022-05-14-day26/</guid><description>&lt;hr>
 &lt;p>來源：赤倉&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://twitter.com/akakura1341">作者推特&lt;/a>&lt;br>
