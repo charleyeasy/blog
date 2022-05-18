@@ -5,7 +5,7 @@
         {{ if .NextInSection }}
         <br>
         <div class="next"style="float:right;font-size:22px" >
-          <a href="{{ .NextInSection.Permalink }}" style="font-weight:lighter;color:#87678b ;padding:2px;padding-left:10px;padding-right:10px; border:2px solid #87678b" >Next Post &rarr; </a>
+          <a href="{{ .NextInSection.Permalink }}" style="font-weight:lighter;color:#87678b ;padding:2px;padding-left:10px;padding-right:10px; border:2px solid #87678b" >{{.NextInSection.Title}} &rarr; </a>
         </div>
         {{else}}
         <br>
@@ -14,7 +14,7 @@
         
             <div class="previous"style="font-size:22px;font-weight:bolder" >
               <a href="{{ .PrevInSection.Permalink }}"  style="font-weight:lighter;color:#87678b;padding:2px;padding-left:10px;padding-right:10px; border:2px solid #87678b">&larr;
-                  Previous Post</a>
+                {{.PrevInSection.Title}}</a>
             </div>
             <br>
         {{else}}

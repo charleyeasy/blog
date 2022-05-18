@@ -1,4 +1,6 @@
-* # Curriculum Vitae
+---
+title:      "Curriculum Vitae"
+---
 ***
 ![](/blog/img/cv_en.jpg)  
 
