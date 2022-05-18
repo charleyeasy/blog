@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     {{ end }}
     <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
-    <link rel="stylesheet" href="{{ "css/normalize.min.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "less/normalize.css" | relURL }}">
     <link rel="stylesheet" href="{{ "less/style.css" | relURL }}">
 
     {{ if .Site.Params.rtl}}
@@ -48,6 +48,7 @@
     {{ end }}
 
     {{ hugo.Generator }}
+    
   </head>
 
   <body class="{{ if .Site.Params.rtl }}rtl{{ end }}">
@@ -55,11 +56,17 @@
       {{ partial "header.html" . }}
 
       <div class="content">
+        
         {{ block "content" . }}{{ end }}
-      </div>
+      <br>
+      <br>
+        <hr width=85% size=1px color=#ae9abe 　>
+        
+        {{ partial "bottom.html" . }}
       {{ if or (.Site.Params.fixedbarContent) (.Site.Params.snsShare)}}
         {{ partial "footer.html" . }}
       {{ end }}
+      
     </main>
 
     {{ template "_internal/google_analytics.html" . }}
@@ -79,4 +86,5 @@
   {{ end }}
   </body>
   {{ partial "script.html" . }}
+  
 </html>
