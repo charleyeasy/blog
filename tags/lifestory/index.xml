@@ -1,4 +1,66 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>lifestory on 陳昱元</title><link>https://charleyeasy.github.io/blog/tags/lifestory/</link><description>Recent content in lifestory on 陳昱元</description><generator>Hugo -- gohugo.io</generator><language>ch</language><lastBuildDate>Thu, 16 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://charleyeasy.github.io/blog/tags/lifestory/index.xml" rel="self" type="application/rss+xml"/><item><title>Sketching Day47</title><link>https://charleyeasy.github.io/blog/en/sketch/2022-06-16-day47/</link><pubDate>Thu, 16 Jun 2022 00:00:00 +0000</pubDate><guid>https://charleyeasy.github.io/blog/en/sketch/2022-06-16-day47/</guid><description>&lt;hr>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>lifestory on 陳昱元</title><link>https://charleyeasy.github.io/blog/tags/lifestory/</link><description>Recent content in lifestory on 陳昱元</description><generator>Hugo -- gohugo.io</generator><language>ch</language><lastBuildDate>Fri, 17 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://charleyeasy.github.io/blog/tags/lifestory/index.xml" rel="self" type="application/rss+xml"/><item><title>Sketching Day48</title><link>https://charleyeasy.github.io/blog/en/sketch/2022-06-17-day48/</link><pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate><guid>https://charleyeasy.github.io/blog/en/sketch/2022-06-17-day48/</guid><description>&lt;hr>
+&lt;p>source：赤倉&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.pixiv.net/artworks/98322323">link&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/akakura1341">twitter&lt;/a>&lt;br>
+&lt;img src="https://charleyeasy.github.io/blog/blog/sketch/d48-1.jpg" alt="">&lt;/li>
+&lt;/ul>
+&lt;p>Chainsaw man ─ Makima rough draft&lt;br>
+&lt;img src="https://charleyeasy.github.io/blog/blog/sketch/d48-2.jpg" alt="">&lt;/p>
+&lt;hr>
+&lt;p>I&amp;rsquo;ll keep practicing.&lt;/p></description></item><item><title>速寫 Day48</title><link>https://charleyeasy.github.io/blog/sketch/2022-06-17-day48/</link><pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate><guid>https://charleyeasy.github.io/blog/sketch/2022-06-17-day48/</guid><description>&lt;hr>
+&lt;p>來源：赤倉&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.pixiv.net/artworks/98322323">作品連結&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/akakura1341">作者推特&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://charleyeasy.github.io/blog/blog/sketch/d48-1.jpg" alt="">&lt;/p>
+&lt;p>瑪奇瑪草稿
+&lt;img src="https://charleyeasy.github.io/blog/blog/sketch/d48-2.jpg" alt="">&lt;/p>
+&lt;hr>
+&lt;h4 id="今日日文單字">今日日文單字：&lt;/h4>
+&lt;h5 id="日文文法--兩篇文章">日文文法 ─ 兩篇文章&lt;/h5>
+&lt;ul>
+&lt;li>人（職業 しょくぎょう）の&lt;strong>ことだから&lt;/strong> ─ 因為其(角色、性質)&lt;/li>
+&lt;li>&lt;strong>ほど&lt;/strong> ─ &lt;strong>非常&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>なりに&lt;/strong> ─ &lt;strong>正如&lt;/strong>&lt;/li>
+&lt;li>Nのため&lt;strong>とあれば&lt;/strong> ─ 如果是為了&lt;/li>
+&lt;li>A&lt;strong>こそすれ&lt;/strong>、Bではない ─ &lt;strong>儘管&lt;/strong>可能是A，也絕不會是B&lt;/li>
+&lt;li>&lt;strong>つつも&lt;/strong> ─ &lt;strong>雖然&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h4 id="稍微的筆記">稍微的筆記&lt;/h4>
+&lt;h5 id="pattern-recognition-and-machine-learning--bishop">Pattern Recognition and Machine Learning ─ Bishop&lt;/h5>
+&lt;ul>
+&lt;li>&lt;strong>Over-fitting&lt;/strong>: The fitted curve oscillates wildly and gives a very poor representation.&lt;/li>
+&lt;/ul>
+&lt;h5 id="methods-of-avoiding-over-fitting">Methods of avoiding over-fitting:&lt;/h5>
+&lt;ul>
+&lt;li>
+&lt;ol>
+&lt;li>Increase the size of the data set (to increase the complexity or flexibility of the model)&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="2">
+&lt;li>Maximum likelihood (by adopting &lt;strong>Bayesian approach&lt;/strong>)&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="3">
+&lt;li>&lt;strong>Regulization&lt;/strong>: Adding penalty to an error function.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;p>\(E(\omega)=\dfrac{1}{2}\sum_{n=1}^{N}(y(X_n,\omega)-t_n)^2+\dfrac{\lambda}{2}||\omega||^2\), where \(\lambda\) denotes the regulization term.&lt;/p>
+&lt;hr>
+&lt;h4 id="今日其他進度">今日其他進度：&lt;/h4>
+&lt;ul>
+&lt;li>日文N1文法、N1題目&lt;/li>
+&lt;li>一堆的動畫&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>我會繼續努力的。&lt;/p></description></item><item><title>Sketching Day47</title><link>https://charleyeasy.github.io/blog/en/sketch/2022-06-16-day47/</link><pubDate>Thu, 16 Jun 2022 00:00:00 +0000</pubDate><guid>https://charleyeasy.github.io/blog/en/sketch/2022-06-16-day47/</guid><description>&lt;hr>
 &lt;p>source：赤倉&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://www.pixiv.net/artworks/98322323">link&lt;/a>&lt;/li>
