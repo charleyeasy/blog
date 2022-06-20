@@ -56,20 +56,32 @@ disqusShortname = "yourdiscussshortname"
     icon = "fab fa-facebook"
     weight = 1
     url = "https://www.facebook.com/charleyeasy/"
+    bp=1
 [[params.social]]
     name = "Twitter"
     icon = "fab fa-instagram"
     weight = 2
     url = "https://www.instagram.com/charleyeasy/"
+    bp=1
 #[[params.social]]
     #name = "mail"
     #icon = "fab fa-github"
     #weight = 3
     #url = "https://www.linkedin.com/in/naro143/"
 [[params.social]]
-    name = "Friend"
+    name = "Friend:"
+    weight = 3
+    ap=1
+[[params.social]]
+    name = "yagami"
     weight = 4
     url = "https://yagami.dev/"
+    ap=1
+[[params.social]]
+    name = "enquestor"
+    weight = 4
+    url = "https://blog.enquestor.com/"
+    ap=1
 
 [languages]
     [languages.en]

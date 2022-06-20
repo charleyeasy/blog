@@ -8,6 +8,7 @@
     {{ with .Site.Params.social }}
     <ul class="social-list">
       {{ range sort . "weight"}}
+      {{if .bp }}
         <li class="social-item">
           <a href="{{ .url }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }}>
             {{ if .icon }}
@@ -17,7 +18,32 @@
             {{ end }}
           </a>
         </li>
+        {{end}}
       {{ end }}
+    </ul>
+    {{ end }}
+    {{ with .Site.Params.social }}
+    <ul class="social-list">
+      {{ range sort . "weight"}}
+        {{if .ap }}
+          {{if .url}}
+            <li class="social-item">
+              <a href="{{ .url }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }}>
+                {{ if .icon }}
+                  <i class="{{ .icon }}" aria-hidden="true"></i>
+                {{ else }}
+                  {{ .name }}
+                {{ end }}
+              </a>
+            </li>
+            
+          {{else}}
+            <h2>{{ .name }}</h2>
+          {{end}}
+          
+        {{ end }}
+      {{ end }}
+   
     </ul>
     {{ end }}
   </div>
