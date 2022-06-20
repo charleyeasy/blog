@@ -1,4 +1,65 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>lifestory on 陳昱元</title><link>https://charleyeasy.github.io/blog/tags/lifestory/</link><description>Recent content in lifestory on 陳昱元</description><generator>Hugo -- gohugo.io</generator><language>ch</language><lastBuildDate>Sat, 18 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://charleyeasy.github.io/blog/tags/lifestory/index.xml" rel="self" type="application/rss+xml"/><item><title>Sketching Day49</title><link>https://charleyeasy.github.io/blog/en/sketch/2022-06-18-day49/</link><pubDate>Sat, 18 Jun 2022 00:00:00 +0000</pubDate><guid>https://charleyeasy.github.io/blog/en/sketch/2022-06-18-day49/</guid><description>&lt;hr>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>lifestory on 陳昱元</title><link>https://charleyeasy.github.io/blog/tags/lifestory/</link><description>Recent content in lifestory on 陳昱元</description><generator>Hugo -- gohugo.io</generator><language>ch</language><lastBuildDate>Mon, 20 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://charleyeasy.github.io/blog/tags/lifestory/index.xml" rel="self" type="application/rss+xml"/><item><title>速寫 Day50</title><link>https://charleyeasy.github.io/blog/sketch/2022-06-20-day50/</link><pubDate>Mon, 20 Jun 2022 00:00:00 +0000</pubDate><guid>https://charleyeasy.github.io/blog/sketch/2022-06-20-day50/</guid><description>&lt;hr>
+&lt;p>&lt;img src="https://charleyeasy.github.io/blog/blog/sketch/d47-2.jpg" alt="">&lt;/p>
+&lt;p>依舊是沒速寫day，&lt;br>
+放瑪奇瑪壓壓驚。&lt;br>
+個人真的是私心喜歡這張臨摹。&lt;br>
+&lt;del>是因為裝潢還沒完全好。&lt;/del>&lt;br>
+&lt;del>真的不是因為我懶==&lt;/del>&lt;/p>
+&lt;hr>
+&lt;h4 id="今日日文單字">今日日文單字：&lt;/h4>
+&lt;h5 id="日文文法--四篇文章">日文文法 ─ 四篇文章&lt;/h5>
+&lt;ul>
+&lt;li>&lt;strong>とうてい&amp;hellip;ない&lt;/strong> ─ &lt;strong>無法&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>とういうと そうではない&lt;/strong> ─ &lt;strong>不是&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>どころか&lt;/strong> ─ &lt;strong>不用說，但&amp;hellip;&lt;/strong>&lt;/li>
+&lt;li>Aと引き換えに、B ─ 相反的&lt;/li>
+&lt;li>&lt;strong>とりわけ&lt;/strong>／&lt;strong>なんといっても&lt;/strong> ─ &lt;strong>當中最為特別&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>のみならず&lt;/strong> ─ 不僅&lt;/li>
+&lt;li>&lt;strong>が欠かせない&lt;/strong> ─ &lt;strong>不可或缺&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>&amp;hellip;は&amp;hellip;に限られる&lt;/strong> ─ &lt;strong>只有&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>(が)も幸（さいわ）いして&lt;/strong>／&lt;strong>のおかげで&lt;/strong> ─ &lt;strong>因為&amp;hellip;的原因(才能&amp;hellip;)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>さぞ&lt;/strong>／きっととても ─ 一定非常&lt;/li>
+&lt;li>ものの ─ 雖然&lt;/li>
+&lt;li>&lt;strong>思いきや&lt;/strong> ─ &lt;strong>原以為&amp;hellip;但&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>したがって&lt;/strong>／それだから ─ &lt;strong>因此&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>ないわけではない&lt;/strong> ─ &lt;strong>也不是沒有&amp;hellip;&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>ならでは&lt;/strong> ─ &lt;strong>只有&amp;hellip;(才做的到)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Vうにも&amp;hellip;ない&lt;/strong> ─ 想&amp;hellip;也無法&lt;/li>
+&lt;li>&lt;strong>かたくない&lt;/strong> ─ 不難&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h4 id="稍微的筆記">稍微的筆記&lt;/h4>
+&lt;h5 id="pattern-recognition-and-machine-learning--bishop">Pattern Recognition and Machine Learning ─ Bishop&lt;/h5>
+&lt;h5 id="decision-theory">Decision Theory&lt;/h5>
+&lt;ul>
+&lt;li>&lt;strong>Inference stage&lt;/strong>: use training data to learn a model for \(p(C_k|x)\)&lt;/li>
+&lt;li>&lt;strong>Decision stage&lt;/strong>: use these posterior probabilities to make &lt;em>optimal&lt;/em> class assignments.&lt;/li>
+&lt;li>&lt;strong>Generative models&lt;/strong>: approaches that explicitly or implicitly model the distribution of inputs as well as outputs.&lt;br>
+-&amp;gt; can detect outlier/novelty because it can model the distribution.&lt;/li>
+&lt;li>&lt;strong>Discriminative models&lt;/strong>: approaches that model the posterior probabilities directly.&lt;/li>
+&lt;li>Maximizing joint probability \(p(x,C_k)\) is equivalent to maximizing posterior probability \(p(C_k|x)\) because \(p(x)\) is common to all terms.&lt;/li>
+&lt;li>&lt;strong>Minkowski loss function&lt;/strong>: a simple generalization of the squared loss: \(E(L_q)=\int\int |y(x)-t|^qp(x,t)dxdt\)&lt;/li>
+&lt;/ul>
+&lt;h5 id="entropy">Entropy&lt;/h5>
+&lt;ul>
+&lt;li>&lt;strong>Kullback-Leibler divergence&lt;/strong> \(KL(p||q)=\int p(x)ln(\dfrac{q(x)}{p(x)})dx \geq 0\) &lt;strong>if and only if&lt;/strong> \(p(x)=q(x)\).&lt;/li>
+&lt;li>We can try to approximate the distribution using some parametric distribution \(q(x|\theta)\), governed by a set of adjustable parameters \(\theta\), by minimizing the KL divergence between \(p(x)\space and\space q(x|\theta)\)&lt;/li>
+&lt;li>&lt;strong>Conditional entropy of y given x&lt;/strong>: \(H(x,y)=H(y|x)+H(x)\)&lt;/li>
+&lt;/ul>
+&lt;p>&amp;ndash;&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Mutual information&lt;/strong>: the &lt;em>&lt;strong>reduction in the uncertainty&lt;/strong>&lt;/em> about x by virtue of &lt;strong>being told the value of y&lt;/strong>.&lt;/li>
+&lt;li>\(I(x,y)=-\int\int p(x,y)ln(\dfrac{p(x)p(y)}{p(x,y)})dxdy\), and \(I(x,y)\geq0\) if and only if &lt;em>&lt;strong>x and y are independent.&lt;/strong>&lt;/em>&lt;/li>
+&lt;li>\(I(x,y)=H(x)-H(x|y)=H(y)-H(y|x)\)&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h4 id="今日其他進度">今日其他進度：&lt;/h4>
+&lt;ul>
+&lt;li>日文N1文法、N1題目&lt;/li>
+&lt;li>一堆的動畫&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>我會繼續努力的。&lt;/p></description></item><item><title>Sketching Day49</title><link>https://charleyeasy.github.io/blog/en/sketch/2022-06-18-day49/</link><pubDate>Sat, 18 Jun 2022 00:00:00 +0000</pubDate><guid>https://charleyeasy.github.io/blog/en/sketch/2022-06-18-day49/</guid><description>&lt;hr>
 &lt;p>source：赤倉&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://www.pixiv.net/artworks/98322323">link&lt;/a>&lt;/li>
