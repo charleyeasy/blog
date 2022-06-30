@@ -1,4 +1,172 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LIFE IS TASTY on 陳昱元</title><link>https://charleyeasy.github.io/blog/categories/life-is-tasty/</link><description>Recent content in LIFE IS TASTY on 陳昱元</description><generator>Hugo -- gohugo.io</generator><language>ch</language><lastBuildDate>Mon, 20 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://charleyeasy.github.io/blog/categories/life-is-tasty/index.xml" rel="self" type="application/rss+xml"/><item><title>Sketching Day50</title><link>https://charleyeasy.github.io/blog/en/sketch/2022-06-20-day50/</link><pubDate>Mon, 20 Jun 2022 00:00:00 +0000</pubDate><guid>https://charleyeasy.github.io/blog/en/sketch/2022-06-20-day50/</guid><description>&lt;hr>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LIFE IS TASTY on 陳昱元</title><link>https://charleyeasy.github.io/blog/categories/life-is-tasty/</link><description>Recent content in LIFE IS TASTY on 陳昱元</description><generator>Hugo -- gohugo.io</generator><language>ch</language><lastBuildDate>Thu, 30 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://charleyeasy.github.io/blog/categories/life-is-tasty/index.xml" rel="self" type="application/rss+xml"/><item><title>Sketching Day51</title><link>https://charleyeasy.github.io/blog/en/sketch/2022-06-30-day51/</link><pubDate>Thu, 30 Jun 2022 00:00:00 +0000</pubDate><guid>https://charleyeasy.github.io/blog/en/sketch/2022-06-30-day51/</guid><description>&lt;hr>
+&lt;p>Makima is the best.
+&lt;img src="https://charleyeasy.github.io/blog/blog/sketch/d51-1.jpg" alt="">&lt;/p>
+&lt;hr>
+&lt;p>I&amp;rsquo;ll keep practicing.&lt;/p></description></item><item><title>速寫 Day51</title><link>https://charleyeasy.github.io/blog/sketch/2022-06-30-day51/</link><pubDate>Thu, 30 Jun 2022 00:00:00 +0000</pubDate><guid>https://charleyeasy.github.io/blog/sketch/2022-06-30-day51/</guid><description>&lt;hr>
+&lt;p>&lt;img src="https://charleyeasy.github.io/blog/blog/sketch/d51-1.jpg" alt="">&lt;/p>
+&lt;p>在6/23-6/26，&lt;br>
+跟大學同學去&lt;strong>宜花畢業旅行&lt;/strong>。&lt;br>
+真的是累死了，&lt;br>
+一直唱歌喉嚨好痛。&lt;br>
+然後又每天聊天聊到一兩點。&lt;/p>
+&lt;p>因為疫情的關係大家好久沒有聚在一塊，&lt;br>
+現在好不容易聚在一起，&lt;br>
+反而已經是最後一次了。&lt;br>
+畢業之際，雖然有許多不錯的回憶，&lt;br>
+但心中真的還有許多滿滿的不捨。&lt;/p>
+&lt;p>&lt;code>之後照片整理整理後再寫一篇文章吧！&lt;/code>&lt;/p>
+&lt;p>現在真的沒辦法。&lt;br>
+一回來就好多東西要忙==&lt;br>
+例如實習前要研讀的許多教程資料；&lt;br>
+7/3要準備考的日檢N1；&lt;br>
+或是日本交換線上課程準備要考期末；&lt;br>
+更甚至最近家裡裝潢完成需要開始搬東西。&lt;br>
+&lt;del>或是要再去新竹領畢業證書之類的==&lt;/del>&lt;/p>
+&lt;p>&lt;code>總之就是很多東西。&lt;/code>&lt;/p>
+&lt;p>&amp;ndash;&lt;/p>
+&lt;p>然後最近水電工、第四台、裝冰箱等等工人，&lt;br>
+一直來，&lt;br>
+我最近的下午完全沒辦法念書。&lt;/p>
+&lt;p>雖然覺得他們真的很累很辛苦，&lt;br>
+可是&amp;hellip;&amp;hellip;&lt;br>
+我真的要開天窗啦！&lt;br>
+啊啊啊啊啊啊啊！&lt;/p>
+&lt;p>然後還要碩士註冊前體檢，&lt;br>
+插座還因為水電師傅接錯，&lt;br>
+印表機不小心燒掉？&lt;/p>
+&lt;p>太多事了吧！&lt;br>
+我真的要崩潰了喔？&lt;/p>
+&lt;h5 id="heading">&lt;/h5>
+&lt;hr>
+&lt;h4 id="稍微的筆記">稍微的筆記&lt;/h4>
+&lt;h5 id="deep-learning-with-python---chollet">Deep Learning with Python - Chollet&lt;/h5>
+&lt;ul>
+&lt;li>&lt;strong>Optimization:&lt;/strong> the process of adjusting a model to get the best performance possible on the training data.&lt;/li>
+&lt;li>&lt;strong>Generalization:&lt;/strong> how well the trained model performs on data it has never seen before.&lt;/li>
+&lt;li>&lt;strong>Regulization:&lt;/strong> the process of fighting overfitting.&lt;/li>
+&lt;/ul>
+&lt;h5 id="preventing-overfitting">Preventing overfitting:&lt;/h5>
+&lt;ul>
+&lt;li>Get more training data.&lt;/li>
+&lt;li>Reduce the capacity of the network.&lt;/li>
+&lt;li>Add weight regularization.&lt;/li>
+&lt;li>Add &lt;strong>dropout&lt;/strong>. (&lt;strong>introducing noice&lt;/strong>)&lt;/li>
+&lt;/ul>
+&lt;p>&amp;ndash;&lt;/p>
+&lt;h4 id="finding-alphas-a-quantitative-approach-to-building-trading-strategies---tulchinsky-et-al">Finding Alphas: A Quantitative Approach to Building Trading Strategies - Tulchinsky et al.&lt;/h4>
+&lt;h5 id="introduction-to-alpha-design">Introduction to Alpha Design&lt;/h5>
+&lt;ul>
+&lt;li>&lt;strong>Alpha design&lt;/strong>: A forecast of the return on each of the financial securities, to make predictions about future movements.&lt;/li>
+&lt;li>&lt;strong>Data \(\rightarrow\) (e.g. historical proces, volume, shares traded, etc.) \(\rightarrow\) Alpha \(\rightarrow\) Price Prediction&lt;/strong>&lt;/li>
+&lt;li>The existence of alphas is a result of the &lt;strong>imperfect flow of information&lt;/strong> among market participants with competing objectives.&lt;/li>
+&lt;li>Rules in trading are called alphas.&lt;/li>
+&lt;li>&lt;strong>Cutting losses&lt;/strong>: Letting go of rules that no longer work.&lt;/li>
+&lt;li>&lt;strong>Applying all rules simultaneously is the key to success.&lt;/strong> No single rule can ever be relied upon completely, so it&amp;rsquo;s necessary to come up with a &lt;strong>strategy for using rules simultaneously.&lt;/strong> (Some rule should be cut immediately when emergency happens)&lt;/li>
+&lt;/ul>
+&lt;h5 id="design-and-evaluation">Design and Evaluation&lt;/h5>
+&lt;h5 id="alpha-design">Alpha design&lt;/h5>
+&lt;ul>
+&lt;li>Typically, an alpha is utilized as a component of a trading strategy, which converts the alpha&amp;rsquo;s predictions into actual trading decisions. The strategy also considers practical issues such as &lt;strong>transaction costs&lt;/strong> and &lt;strong>portfolio risk.&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h5 id="alpha-types">Alpha Types&lt;/h5>
+&lt;ul>
+&lt;li>
+&lt;ol>
+&lt;li>&lt;strong>Intraday alphas&lt;/strong>: rebalanced during trading hours of the day.&lt;br>
+(1) Rebalance at each interval. e.g. 1 min/5 min.&lt;br>
+(2) Rebalance triggered by some events such as ticks/orders/fills or predefined events.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="2">
+&lt;li>&lt;strong>Daily alphas&lt;/strong>: rebalance every day.&lt;br>
+(1) Delay N: use data of N days ago.&lt;br>
+(2) Delay 0 snapshot: use data before a certain time snapshot.&lt;br>
+(3) MOO/MOC: alphas trade at market open/close auction session.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="3">
+&lt;li>&lt;strong>Weekly/Monthly alphas&lt;/strong>: rebalanced every week/month.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;h5 id="development-of-an-alpha">Development of an alpha:&lt;/h5>
+&lt;ul>
+&lt;li>Using &lt;strong>public information&lt;/strong> by searching signals/patterns:&lt;br>
+(1) Price/Volume.&lt;br>
+(2) Fundamentals.&lt;br>
+(3) Macro data.&lt;br>
+(4) Text.&lt;br>
+(5) Multimedia. (Extract text information from the video/audio).&lt;/li>
+&lt;li>Other information from which alphas are not derived directly but may be used to improve the performance of alphas:&lt;br>
+(1) &lt;strong>Risk factor models&lt;/strong>. (risk mitigation.)&lt;br>
+(2) &lt;strong>Relationship models&lt;/strong>. (lead or lag due to correlation.)&lt;br>
+(3) &lt;strong>Microstructure models&lt;/strong>. (real trading.)&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h5 id="practical-alpha-evaluaion">Practical alpha evaluaion&lt;/h5>
+&lt;ul>
+&lt;li>Run a simulation (backtest) to measure &lt;strong>characteristics&lt;/strong>:&lt;br>
+(1) &lt;strong>Information ratio:&lt;/strong> The mean of the alpha&amp;rsquo;s returns divided by the standard deviation of the returns.&lt;br>
+-&amp;gt; Measure &lt;strong>Consistency.&lt;/strong>&lt;br>
+-&amp;gt; which combined with the &lt;strong>length of the observation peroid&lt;/strong> can be used to determine how confident we are to determine that the alpha is &lt;strong>not some random noise.&lt;/strong>&lt;br>
+(2) &lt;strong>Margin&lt;/strong>: The amount of profit made by the alpha in the simulation divided by the amount of trading that was done.&lt;br>
+-&amp;gt; Measure &lt;strong>Sensitivity to transaction costs.&lt;/strong>&lt;br>
+(3) &lt;strong>Uniqueness:&lt;/strong> The maximum correlation of the alpha to others in the pool of alphas.&lt;br>
+-&amp;gt; Lower correlation means &lt;strong>more valuable alpha.&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h5 id="develop-an-alpha">Develop an alpha:&lt;/h5>
+&lt;ul>
+&lt;li>
+&lt;ol>
+&lt;li>Collect information.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="2">
+&lt;li>Come up with an idea.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="3">
+&lt;li>Translate into a mathematical expression. (Positive alpha \(\rightarrow\) long position, vice versa.)&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="4">
+&lt;li>Transform the raw expression by applying operations.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="5">
+&lt;li>Final robust alpha.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="6">
+&lt;li>Translate into positions in a financial instrument.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;ol start="7">
+&lt;li>Check for robustness, such as &lt;strong>High In-sample / Good Out-of-sample Information Ratio, less fitting, small drawdown, etc.&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;h5 id="improving-alpha">Improving alpha:&lt;/h5>
+&lt;ul>
+&lt;li>&lt;strong>Risk mitigation&lt;/strong>: requiring our portfolios to be always long/short balanced within each industry.&lt;/li>
+&lt;li>&lt;strong>Relative size&lt;/strong> is more accurate as a predictor: &lt;strong>Concept of rank.&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Using Decay&lt;/strong>: averaging alpha signal within a time window. (To reduce turnover.)&lt;/li>
+&lt;/ul>
+&lt;h4 id="今日其他進度">今日其他進度：&lt;/h4>
+&lt;ul>
+&lt;li>日文N1文法、N1題目&lt;/li>
+&lt;li>一堆的動畫&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>我會繼續努力的。&lt;/p></description></item><item><title>Sketching Day50</title><link>https://charleyeasy.github.io/blog/en/sketch/2022-06-20-day50/</link><pubDate>Mon, 20 Jun 2022 00:00:00 +0000</pubDate><guid>https://charleyeasy.github.io/blog/en/sketch/2022-06-20-day50/</guid><description>&lt;hr>
 &lt;p>Makima is the best.
 &lt;img src="https://charleyeasy.github.io/blog/blog/sketch/d47-2.jpg" alt="">&lt;/p>
 &lt;hr>
