@@ -82,6 +82,11 @@ disqusShortname = "yourdiscussshortname"
     weight = 4
     url = "https://blog.enquestor.com/"
     ap=1
+[[params.social]]
+    name = "kereds"
+    weight = 5
+    url = "https://kereds.github.io/"
+    ap=1
 
 [languages]
     [languages.en]
