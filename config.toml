@@ -87,6 +87,11 @@ disqusShortname = "yourdiscussshortname"
     weight = 5
     url = "https://kereds.github.io/"
     ap=1
+[[params.social]]
+    name = "ruirui"
+    weight = 5
+    url = "https://iceglitter632.github.io/AboutMe/"
+    ap=1
 
 [languages]
     [languages.en]
