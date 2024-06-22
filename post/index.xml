@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 陳昱元</title><link>https://charleyeasy.github.io/blog/post/</link><description>Recent content in Posts on 陳昱元</description><generator>Hugo</generator><language>ch</language><lastBuildDate>Sat, 22 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://charleyeasy.github.io/blog/post/index.xml" rel="self" type="application/rss+xml"/><item><title>測試</title><link>https://charleyeasy.github.io/blog/post/2024-06-22-%E8%AB%96%E6%96%87/</link><pubDate>Sat, 22 Jun 2024 00:00:00 +0000</pubDate><guid>https://charleyeasy.github.io/blog/post/2024-06-22-%E8%AB%96%E6%96%87/</guid><description>&lt;script type="text/javascript" src= '/js/pdf-js/build/pdf.js'>&lt;/script>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 陳昱元</title><link>https://charleyeasy.github.io/blog/post/</link><description>Recent content in Posts on 陳昱元</description><generator>Hugo</generator><language>ch</language><lastBuildDate>Sat, 22 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://charleyeasy.github.io/blog/post/index.xml" rel="self" type="application/rss+xml"/><item><title>測試</title><link>https://charleyeasy.github.io/blog/post/2024-06-22-%E8%AB%96%E6%96%87/</link><pubDate>Sat, 22 Jun 2024 00:00:00 +0000</pubDate><guid>https://charleyeasy.github.io/blog/post/2024-06-22-%E8%AB%96%E6%96%87/</guid><description>&lt;p>&lt;script type="text/javascript" src= '/js/pdf-js/build/pdf.js'>&lt;/script>
 
 &lt;style>
  #embed-pdf-container {
@@ -82,36 +82,36 @@
  @-webkit-keyframes spin {
  to { -webkit-transform: rotate(360deg); }
  }
- &lt;/style>&lt;div class="embed-pdf-container" id="embed-pdf-container-994ad632">
- &lt;div class="pdf-loadingWrapper" id="pdf-loadingWrapper-994ad632">
- &lt;div class="pdf-loading" id="pdf-loading-994ad632">&lt;/div>
+ &lt;/style>&lt;div class="embed-pdf-container" id="embed-pdf-container-573d5ea4">
+ &lt;div class="pdf-loadingWrapper" id="pdf-loadingWrapper-573d5ea4">
+ &lt;div class="pdf-loading" id="pdf-loading-573d5ea4">&lt;/div>
  &lt;/div>
  &lt;div id="overlayText">
- &lt;a href="pdf/Thesis.pdf" aria-label="Download" download>
+ &lt;a href="./blog/pdf/Thesis.pdf" aria-label="Download" download>
  &lt;svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
  &lt;path d="M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z" />
  &lt;/svg>
  &lt;/a>
  &lt;/div>
- &lt;canvas class="pdf-canvas" id="pdf-canvas-994ad632">&lt;/canvas>
+ &lt;canvas class="pdf-canvas" id="pdf-canvas-573d5ea4">&lt;/canvas>
 &lt;/div>
 
-&lt;div class="pdf-paginator" id="pdf-paginator-994ad632">
- &lt;button id="pdf-prev-994ad632">Previous&lt;/button>
- &lt;button id="pdf-next-994ad632">Next&lt;/button> &amp;nbsp; &amp;nbsp;
+&lt;div class="pdf-paginator" id="pdf-paginator-573d5ea4">
+ &lt;button id="pdf-prev-573d5ea4">Previous&lt;/button>
+ &lt;button id="pdf-next-573d5ea4">Next&lt;/button> &amp;nbsp; &amp;nbsp;
  &lt;span>
- &lt;span class="pdf-pagenum" id="pdf-pagenum-994ad632">&lt;/span> / &lt;span class="pdf-pagecount" id="pdf-pagecount-994ad632">&lt;/span>
+ &lt;span class="pdf-pagenum" id="pdf-pagenum-573d5ea4">&lt;/span> / &lt;span class="pdf-pagecount" id="pdf-pagecount-573d5ea4">&lt;/span>
  &lt;/span>
- &lt;a class="pdf-source" id="pdf-source-994ad632" href="pdf/Thesis.pdf">[pdf]&lt;/a>
+ &lt;a class="pdf-source" id="pdf-source-573d5ea4" href="./blog/pdf/Thesis.pdf">[pdf]&lt;/a>
 &lt;/div>
 
 &lt;noscript>
-View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-994ad632" href="pdf/Thesis.pdf">here&lt;/a>.
+View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-573d5ea4" href="./blog/pdf/Thesis.pdf">here&lt;/a>.
 &lt;/noscript>
 
 &lt;script type="text/javascript">
  (function(){
- var url = 'pdf\/Thesis.pdf';
+ var url = '.\/blog\/pdf\/Thesis.pdf';
 
  var hidePaginator = "" === "true";
  var hideLoader = "" === "true";
@@ -130,10 +130,10 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-994ad632" hre
  pageRendering = false,
  pageNumPending = null,
  scale = 3,
- canvas = document.getElementById('pdf-canvas-994ad632'),
+ canvas = document.getElementById('pdf-canvas-573d5ea4'),
  ctx = canvas.getContext('2d'),
- paginator = document.getElementById("pdf-paginator-994ad632"),
- loadingWrapper = document.getElementById('pdf-loadingWrapper-994ad632');
+ paginator = document.getElementById("pdf-paginator-573d5ea4"),
+ loadingWrapper = document.getElementById('pdf-loadingWrapper-573d5ea4');
 
 
  
@@ -171,7 +171,7 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-994ad632" hre
  });
 
  
- document.getElementById('pdf-pagenum-994ad632').textContent = num;
+ document.getElementById('pdf-pagenum-573d5ea4').textContent = num;
  }
 
  
@@ -215,7 +215,7 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-994ad632" hre
  pageNum--;
  queueRenderPage(pageNum);
  }
- document.getElementById('pdf-prev-994ad632').addEventListener('click', onPrevPage);
+ document.getElementById('pdf-prev-573d5ea4').addEventListener('click', onPrevPage);
 
  
 
@@ -226,14 +226,14 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-994ad632" hre
  pageNum++;
  queueRenderPage(pageNum);
  }
- document.getElementById('pdf-next-994ad632').addEventListener('click', onNextPage);
+ document.getElementById('pdf-next-573d5ea4').addEventListener('click', onNextPage);
 
  
 
  pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
  pdfDoc = pdfDoc_;
  var numPages = pdfDoc.numPages;
- document.getElementById('pdf-pagecount-994ad632').textContent = numPages;
+ document.getElementById('pdf-pagecount-573d5ea4').textContent = numPages;
 
  
  if(pageNum > numPages) {
@@ -244,7 +244,9 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-994ad632" hre
  renderPage(pageNum);
  });
  })();
-&lt;/script></description></item><item><title>動畫推薦 ─ Girls Band Cry</title><link>https://charleyeasy.github.io/blog/post/2024-06-16-%E5%8B%95%E7%95%AB%E6%8E%A8%E8%96%A66/</link><pubDate>Sun, 16 Jun 2024 00:00:00 +0000</pubDate><guid>https://charleyeasy.github.io/blog/post/2024-06-16-%E5%8B%95%E7%95%AB%E6%8E%A8%E8%96%A66/</guid><description>&lt;p>&lt;img src="https://charleyeasy.github.io/blog/blog/gbc/nina.gif">&lt;br>
+&lt;/script>
+&lt;br>
+change2&lt;/p></description></item><item><title>動畫推薦 ─ Girls Band Cry</title><link>https://charleyeasy.github.io/blog/post/2024-06-16-%E5%8B%95%E7%95%AB%E6%8E%A8%E8%96%A66/</link><pubDate>Sun, 16 Jun 2024 00:00:00 +0000</pubDate><guid>https://charleyeasy.github.io/blog/post/2024-06-16-%E5%8B%95%E7%95%AB%E6%8E%A8%E8%96%A66/</guid><description>&lt;p>&lt;img src="https://charleyeasy.github.io/blog/blog/gbc/nina.gif">&lt;br>
 仁菜 他媽的&lt;br>
 真的好帥&lt;/p>
 &lt;hr></description></item><item><title>上低音號巡禮計畫</title><link>https://charleyeasy.github.io/blog/post/2024-05-25-%E4%B8%8A%E4%BD%8E%E9%9F%B3%E8%99%9F%E5%B7%A1%E7%A6%AE%E8%A8%88%E7%95%AB/</link><pubDate>Sat, 25 May 2024 00:00:00 +0000</pubDate><guid>https://charleyeasy.github.io/blog/post/2024-05-25-%E4%B8%8A%E4%BD%8E%E9%9F%B3%E8%99%9F%E5%B7%A1%E7%A6%AE%E8%A8%88%E7%95%AB/</guid><description>&lt;p>&lt;img src="https://charleyeasy.github.io/blog/blog/ufo/%E9%BA%97%E5%A5%88%E8%80%81%E5%A9%861.jpg">&lt;br>
