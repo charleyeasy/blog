@@ -2,6 +2,7 @@ baseURL = "https://charleyeasy.github.io/blog"
 title = "charleyeasy"
 
 theme = "coder"
+disqusShortname = "charleyeasy"
 
 DefaultContentLanguage = "ch"
 
