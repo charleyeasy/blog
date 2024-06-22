@@ -82,36 +82,36 @@
  @-webkit-keyframes spin {
  to { -webkit-transform: rotate(360deg); }
  }
- &lt;/style>&lt;div class="embed-pdf-container" id="embed-pdf-container-ee5516ea">
- &lt;div class="pdf-loadingWrapper" id="pdf-loadingWrapper-ee5516ea">
- &lt;div class="pdf-loading" id="pdf-loading-ee5516ea">&lt;/div>
+ &lt;/style>&lt;div class="embed-pdf-container" id="embed-pdf-container-994ad632">
+ &lt;div class="pdf-loadingWrapper" id="pdf-loadingWrapper-994ad632">
+ &lt;div class="pdf-loading" id="pdf-loading-994ad632">&lt;/div>
  &lt;/div>
  &lt;div id="overlayText">
- &lt;a href="blog/pdf/Thesis.pdf" aria-label="Download" download>
+ &lt;a href="pdf/Thesis.pdf" aria-label="Download" download>
  &lt;svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
  &lt;path d="M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z" />
  &lt;/svg>
  &lt;/a>
  &lt;/div>
- &lt;canvas class="pdf-canvas" id="pdf-canvas-ee5516ea">&lt;/canvas>
+ &lt;canvas class="pdf-canvas" id="pdf-canvas-994ad632">&lt;/canvas>
 &lt;/div>
 
-&lt;div class="pdf-paginator" id="pdf-paginator-ee5516ea">
- &lt;button id="pdf-prev-ee5516ea">Previous&lt;/button>
- &lt;button id="pdf-next-ee5516ea">Next&lt;/button> &amp;nbsp; &amp;nbsp;
+&lt;div class="pdf-paginator" id="pdf-paginator-994ad632">
+ &lt;button id="pdf-prev-994ad632">Previous&lt;/button>
+ &lt;button id="pdf-next-994ad632">Next&lt;/button> &amp;nbsp; &amp;nbsp;
  &lt;span>
- &lt;span class="pdf-pagenum" id="pdf-pagenum-ee5516ea">&lt;/span> / &lt;span class="pdf-pagecount" id="pdf-pagecount-ee5516ea">&lt;/span>
+ &lt;span class="pdf-pagenum" id="pdf-pagenum-994ad632">&lt;/span> / &lt;span class="pdf-pagecount" id="pdf-pagecount-994ad632">&lt;/span>
  &lt;/span>
- &lt;a class="pdf-source" id="pdf-source-ee5516ea" href="blog/pdf/Thesis.pdf">[pdf]&lt;/a>
+ &lt;a class="pdf-source" id="pdf-source-994ad632" href="pdf/Thesis.pdf">[pdf]&lt;/a>
 &lt;/div>
 
 &lt;noscript>
-View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-ee5516ea" href="blog/pdf/Thesis.pdf">here&lt;/a>.
+View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-994ad632" href="pdf/Thesis.pdf">here&lt;/a>.
 &lt;/noscript>
 
 &lt;script type="text/javascript">
  (function(){
- var url = 'blog\/pdf\/Thesis.pdf';
+ var url = 'pdf\/Thesis.pdf';
 
  var hidePaginator = "" === "true";
  var hideLoader = "" === "true";
@@ -130,10 +130,10 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-ee5516ea" hre
  pageRendering = false,
  pageNumPending = null,
  scale = 3,
- canvas = document.getElementById('pdf-canvas-ee5516ea'),
+ canvas = document.getElementById('pdf-canvas-994ad632'),
  ctx = canvas.getContext('2d'),
- paginator = document.getElementById("pdf-paginator-ee5516ea"),
- loadingWrapper = document.getElementById('pdf-loadingWrapper-ee5516ea');
+ paginator = document.getElementById("pdf-paginator-994ad632"),
+ loadingWrapper = document.getElementById('pdf-loadingWrapper-994ad632');
 
 
  
@@ -171,7 +171,7 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-ee5516ea" hre
  });
 
  
- document.getElementById('pdf-pagenum-ee5516ea').textContent = num;
+ document.getElementById('pdf-pagenum-994ad632').textContent = num;
  }
 
  
@@ -215,7 +215,7 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-ee5516ea" hre
  pageNum--;
  queueRenderPage(pageNum);
  }
- document.getElementById('pdf-prev-ee5516ea').addEventListener('click', onPrevPage);
+ document.getElementById('pdf-prev-994ad632').addEventListener('click', onPrevPage);
 
  
 
@@ -226,14 +226,14 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-ee5516ea" hre
  pageNum++;
  queueRenderPage(pageNum);
  }
- document.getElementById('pdf-next-ee5516ea').addEventListener('click', onNextPage);
+ document.getElementById('pdf-next-994ad632').addEventListener('click', onNextPage);
 
  
 
  pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
  pdfDoc = pdfDoc_;
  var numPages = pdfDoc.numPages;
- document.getElementById('pdf-pagecount-ee5516ea').textContent = numPages;
+ document.getElementById('pdf-pagecount-994ad632').textContent = numPages;
 
  
  if(pageNum > numPages) {
