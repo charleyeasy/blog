@@ -1,8 +1,7 @@
 baseURL = "https://charleyeasy.github.io/blog"
 title = "charleyeasy"
 
-theme = ["hugo-embed-pdf-shortcode", "coder"]
-enableInlineShortcodes = true
+theme = "coder"
 
 DefaultContentLanguage = "ch"
 
