@@ -65,8 +65,8 @@ googleAnalytics = "G-QSLC3Q69GK"
     bp=1
 [[params.social]]
     name = "mail"
-    icon = "fa-brands fa-pixiv"
-    weight = 3
+    icon = "fab fa-pixiv"
+    weight = 2.5
     url = "https://www.pixiv.net/users/81483706"
 [[params.social]]
     name = "Friend:"
