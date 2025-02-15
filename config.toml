@@ -65,7 +65,7 @@ googleAnalytics = "G-QSLC3Q69GK"
     bp=1
 [[params.social]]
     name = "mail"
-    icon = "fas fa-heart"
+    icon = "fab fa-instagram"
     weight = 3
     url = "https://www.pixiv.net/users/81483706"
 [[params.social]]
