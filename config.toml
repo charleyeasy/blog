@@ -68,6 +68,7 @@ googleAnalytics = "G-QSLC3Q69GK"
     icon = "fab fa-instagram"
     weight = 3
     url = "https://www.pixiv.net/users/81483706"
+    bp=1
 [[params.social]]
     name = "Friend:"
     weight = 4
