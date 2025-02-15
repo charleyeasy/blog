@@ -59,27 +59,27 @@ googleAnalytics = "G-QSLC3Q69GK"
     bp=1
 [[params.social]]
     name = "Twitter"
-    icon = "fab fa-instagram"
+    icon = "fa-brands fa-instagram"
     weight = 2
     url = "https://www.instagram.com/charleyeasy/"
     bp=1
 [[params.social]]
     name = "mail"
-    icon = "fab fa-pixiv"
-    weight = 2.5
+    icon = "fa-brands fa-pixiv"
+    weight = 3
     url = "https://www.pixiv.net/users/81483706"
 [[params.social]]
     name = "Friend:"
-    weight = 3
+    weight = 4
     ap=1
 [[params.social]]
     name = "yagami"
-    weight = 4
+    weight = 5
     url = "https://yagami.dev/"
     ap=1
 [[params.social]]
     name = "enquestor"
-    weight = 4
+    weight = 5
     url = "https://blog.enquestor.com/"
     ap=1
 [[params.social]]
@@ -94,7 +94,7 @@ googleAnalytics = "G-QSLC3Q69GK"
     ap=1
 [[params.social]]
     name = "dorggie"
-    weight = 6
+    weight = 5
     url = "https://blog.dorggie.com/"
     ap=1
 
