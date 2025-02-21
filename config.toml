@@ -6,7 +6,7 @@ theme = ["coder","hugo-shortcode-gallery"]
 DefaultContentLanguage = "ch"
 
 paginate = 20
-
+timeout=60000
 pygmentsstyle = "b2"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
