@@ -1,7 +1,7 @@
 baseURL = "https://charleyeasy.github.io/blog"
 title = "charleyeasy"
-
-theme = ["coder","hugo-shortcode-gallery"]
+theme = coder
+#theme = ["coder","hugo-shortcode-gallery"]
 
 DefaultContentLanguage = "ch"
 
