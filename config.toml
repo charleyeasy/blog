@@ -144,10 +144,10 @@ googleAnalytics = "G-QSLC3Q69GK"
                 name = "sketch diary"
                 weight = 6
                 url = "sketch"
-            [[languages.en.menu.main]]
-                name = "Gallery"
-                weight = 7
-                url = "gallery"
+            #[[languages.en.menu.main]]
+                #name = "Gallery"
+                #weight = 7
+                #url = "gallery"
     [languages.ch]
         languagecode = "ch"
         languagename = "Chinese" # The language name to be displayed in the selector.
@@ -191,10 +191,10 @@ googleAnalytics = "G-QSLC3Q69GK"
                 name = "速寫日記"
                 weight = 6
                 url = "sketch"
-	    [[languages.ch.menu.main]]
-                name = "作品集"
-                weight = 7
-                url = "gallery"
+	    #[[languages.ch.menu.main]]
+                #name = "作品集"
+                #weight = 7
+                #url = "gallery"
 		
 
 
