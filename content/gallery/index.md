@@ -28,7 +28,7 @@
     loadJQuery=true
 >}}  
 5. 
-{{< gallery match="sketch/*" sortOrder="desc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="none" embedPreview=true loadJQuery=true >}}  
+{{< gallery match="sketch/*" sortOrder="desc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="none" embedPreview=true loadJQuery=false >}}  
 6.  
 {{<gallery
     globalMatch="sketch/*"
@@ -39,7 +39,7 @@
     showExif=true
     previewType="none"
     embedPreview=true
-    loadJQuery=true
+    loadJQuery=false
 >}}  
 7 
 {{< gallery match="/sketch/*" sortOrder="desc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="none" embedPreview=true loadJQuery=true >}}  
