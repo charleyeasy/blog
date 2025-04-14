@@ -2,6 +2,6 @@
 title:      "中文履歷"
 ---
 ***
-![](/blog/img/cv_ch.jpg)  
+{{< googlePdfReader "1GUsBSEorBFpkxH_u3cECTt7k3LLQC5C4" "中文簡歷" >}}    
 
 
