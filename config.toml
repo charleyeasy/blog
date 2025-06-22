@@ -168,9 +168,13 @@ googleAnalytics = "G-QSLC3Q69GK"
                 url = "about"
 
             [[languages.ch.menu.main]]
-                name = "文章列表"
+                name = "其他文章"
                 weight = 5
                 url = "post"
+            [[languages.ch.menu.main]]
+                name = "動畫推薦"
+                weight = 6
+                url = "anime"
 
             [[languages.ch.menu.main]]
                 name = "履歷"
@@ -189,11 +193,11 @@ googleAnalytics = "G-QSLC3Q69GK"
 
 	    [[languages.ch.menu.main]]
                 name = "速寫日記"
-                weight = 6
+                weight = 7
                 url = "sketch"
 	    #[[languages.ch.menu.main]]
                 #name = "作品集"
-                #weight = 7
+                #weight = 8
                 #url = "gallery"
 		
 
