@@ -230,7 +230,7 @@ Ordinal: {{ .Ordinal}}
 	// We also expect to get jQuery as a parameter, so that if a second instance of jQuery is loaded
 	// after this script is executed (e.g. by a Hugo theme), we will still be referencing the previous
 	// version of jQuery that has all our plugins loaded.
-	;(function($) {
+	(function($) {
 
 		$( document ).ready(() => {
 			const gallery = $("#{{ $galleryId }}");
@@ -448,5 +448,5 @@ Ordinal: {{ .Ordinal}}
 	// End of our variable-isolating and self-executing anonymous function.
 	// We call it with the one version of jQuery that was used to load our plugins.
 	// See: http://blog.nemikor.com/2009/10/03/using-multiple-versions-of-jquery/
-	})(window.HSCGjQuery)
+	})(window.HSCGjQuery);
 </script>
