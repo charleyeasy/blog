@@ -215,12 +215,15 @@ Ordinal: {{ .Ordinal}}
 </div>
 
 <script>
+	/*
 	if (!("HSCGjQuery" in window)) {
 		if (!window.jQuery) {
 			throw new Error("jQuery is not loaded, hugo-shortcode-gallery wont work without it!");
 		}
 		window.HSCGjQuery = window.jQuery.noConflict(true);
 	}
+	*/
+	window.HSCGjQuery = window.jQuery;
 
 	// Isolate all our variables from other scripts.
 	// See: https://www.nicoespeon.com/en/2013/05/properly-isolate-variables-in-javascript/
