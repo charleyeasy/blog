@@ -10,5 +10,5 @@
 	previewType="none"
     embedPreview=true
 	lastRow="nojustify"
-    loadJQuery=true
+    loadJQuery=false
 >}}
