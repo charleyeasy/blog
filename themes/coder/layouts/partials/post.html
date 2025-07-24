@@ -3,23 +3,12 @@
     <header>
       <h1 class="title">{{ .Title }}</h1>
       <h2 class="date">{{ .Date.Format "January 2, 2006" }}</h2>
-      <!-- Justified Gallery CSS -->
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css" />
-
-      <!-- Swipebox CSS -->
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swipebox@1.4.4/src/css/swipebox.min.css" />
-
-      <!-- jQuery (必須先載入) -->
-      <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
-
-      <!-- Justified Gallery JS -->
-      <script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js"></script>
-
-      <!-- jQuery Lazy Load -->
-      <script src="https://cdn.jsdelivr.net/npm/jquery-lazy@1.7.11/jquery.lazy.min.js"></script>
-
-      <!-- Swipebox JS -->
-      <script src="https://cdn.jsdelivr.net/npm/swipebox@1.4.4/src/js/jquery.swipebox.min.js"></script>
+      <script src="{{ "shortcode-gallery/jquery-3.7.1.min.js" | relURL }}"></script>
+      <script src="{{ "shortcode-gallery/lazy/jquery.lazy.min.js" | relURL }}"></script>
+      <script src="{{ "shortcode-gallery/swipebox/js/jquery.swipebox.min.js" | relURL }}"></script>
+      <link rel="stylesheet" href="{{ "shortcode-gallery/swipebox/css/swipebox.min.css"| relURL }}">
+      <script src="{{ "shortcode-gallery/justified_gallery/jquery.justifiedGallery.min.js"| relURL }}"></script>
+      <link rel="stylesheet" href="{{ "shortcode-gallery/justified_gallery/justifiedGallery.min.css"| relURL }}"/>
 
 
 
