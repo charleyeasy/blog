@@ -1,5 +1,5 @@
 {{ $currentPage := . }}
-{{ .Page.Scratch.Set "hasGallery" true }}
+
 {{ $images := slice }}
 {{ $globalMatch := .Get "globalMatch" }}
 {{ $localMatch := .Get "match" }}
@@ -54,6 +54,7 @@
 <!-- Load jquery, jquery-lazy, swipebox and justified_gallery only once per page -->
 {{ if not (.Page.Scratch.Get "galleryLoaded") }}
 	{{ .Page.Scratch.Set "galleryLoaded" true }}
+	{{ .Page.Scratch.Set "hasGallery" true }}
 	<!-- Use relURL to support hugo projects that run in a subdirectory (bug #18) -->
 	
 	{{ if $loadJQuery }}
