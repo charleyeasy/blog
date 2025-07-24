@@ -11,4 +11,5 @@
     embedPreview=true
     loadJQuery=false
 	lastRow="nojustify"
-	cropImages=false>}} 
+	cropImages=false
+>}}  
