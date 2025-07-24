@@ -9,7 +9,7 @@
     showExif=true
     previewType="none"
     embedPreview=true
-    loadJQuery=false
+    loadJQuery=true
 	lastRow="nojustify"
 	cropImages=false
 >}}    
