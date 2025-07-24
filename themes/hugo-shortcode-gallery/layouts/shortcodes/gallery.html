@@ -1,5 +1,5 @@
 {{ $currentPage := . }}
-
+{{ .Page.Scratch.Set "hasGallery" true }}
 {{ $images := slice }}
 {{ $globalMatch := .Get "globalMatch" }}
 {{ $localMatch := .Get "match" }}
@@ -55,7 +55,7 @@
 {{ if not (.Page.Scratch.Get "galleryLoaded") }}
 	{{ .Page.Scratch.Set "galleryLoaded" true }}
 	<!-- Use relURL to support hugo projects that run in a subdirectory (bug #18) -->
-	<!--
+	
 	{{ if $loadJQuery }}
 		<script src="{{ "shortcode-gallery/jquery-3.7.1.min.js" | relURL }}"></script>
 	{{ end }}
@@ -69,7 +69,7 @@
 
 	<script src="{{ "shortcode-gallery/justified_gallery/jquery.justifiedGallery.min.js"| relURL }}"></script>
 	<link rel="stylesheet" href="{{ "shortcode-gallery/justified_gallery/justifiedGallery.min.css"| relURL }}"/>
-	-->
+	
 {{ end }}
 
 <style>
@@ -213,12 +213,7 @@ Ordinal: {{ .Ordinal}}
 	{{ end }}
 </div>
 </div>
-<script src="{{ "shortcode-gallery/jquery-3.7.1.min.js" | relURL }}"></script>
-<script src="{{ "shortcode-gallery/lazy/jquery.lazy.min.js" | relURL }}"></script>
-<script src="{{ "shortcode-gallery/swipebox/js/jquery.swipebox.min.js" | relURL }}"></script>
-<link rel="stylesheet" href="{{ "shortcode-gallery/swipebox/css/swipebox.min.css"| relURL }}">
-<script src="{{ "shortcode-gallery/justified_gallery/jquery.justifiedGallery.min.js"| relURL }}"></script>
-<link rel="stylesheet" href="{{ "shortcode-gallery/justified_gallery/justifiedGallery.min.css"| relURL }}"/>
+
 <script>
 	/*
 	if (!("HSCGjQuery" in window)) {

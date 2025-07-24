@@ -71,8 +71,9 @@
     </main>
 
     {{ template "_internal/google_analytics.html" . }}
-
-  <script src="{{ "js/app.js" | relURL }}"></script>
+    {{ if not .Page.Scratch.Get "hasGallery" }}
+      <script src="{{ "js/app.js" | relURL }}"></script>
+    {{ end }}
   {{ with .Site.Params.fixedbarContentAfter }}
   <script>
   (function($) {
