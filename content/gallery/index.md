@@ -7,7 +7,6 @@
     margins="5"
     thumbnailResizeOptions="400x400 q90 Lanczos"
     showExif=true
-    previewType="blur"
     embedPreview=true
     loadJQuery=true
 >}}
