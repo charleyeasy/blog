@@ -57,9 +57,9 @@
 	{{ .Page.Scratch.Set "hasGallery" true }}
 	<!-- Use relURL to support hugo projects that run in a subdirectory (bug #18) -->
 	
-	{{ if $loadJQuery }}
+	<!--{{ if $loadJQuery }}-->
 		<script src="{{ "shortcode-gallery/jquery-3.7.1.min.js" | relURL }}"></script>
-	{{ end }}
+	<!--{{ end }}-->
 	
 	<!--{{ if not (eq $previewType "none") }}-->
 		<script src="{{ "shortcode-gallery/lazy/jquery.lazy.min.js" | relURL }}"></script>
