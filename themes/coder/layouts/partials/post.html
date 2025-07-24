@@ -9,20 +9,7 @@
       <!-- Justified Gallery 主程式 -->
       <script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js"></script>
 
-      <!-- 初始化 -->
-      <script>
-        window.addEventListener("DOMContentLoaded", function () {
-          if (typeof $.fn.justifiedGallery === "function") {
-            $(".justified-gallery").justifiedGallery({
-              rowHeight: 220,
-              margins: 5,
-              lastRow: "nojustify"
-            });
-          } else {
-            console.warn("Justified Gallery 沒啟動成功！");
-          }
-        });
-      </script>
+
 
       {{ if eq .Params.math "true" }}
         <script type="text/javascript" async
