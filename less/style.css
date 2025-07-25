@@ -1,13 +1,13 @@
 *,
 *:after,
-*:before {
+:not(.gallery-content) *:before {
   box-sizing: inherit;
 }
-html {
+:not(.gallery-content) html {
   box-sizing: border-box;
   font-size: 62.5%;
 }
-body {
+:not(.gallery-content) body {
   display: flex;
   color: #323232;
   background-color: #fefefe;
@@ -18,24 +18,24 @@ body {
   line-height: 1.8em;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  body {
+  :not(.gallery-content) body {
     font-size: 1.4em;
     line-height: 1.6em;
   }
 }
-a {
+:not(.gallery-content) a {
   font-weight: 700;
   color: #000;
   text-decoration: none;
 }
-a:focus,
-a:hover {
+:not(.gallery-content) a:focus,
+:not(.gallery-content) a:hover {
   text-decoration: underline;
 }
-p {
+:not(.gallery-content) p {
   margin: 1.6rem 0 1.6rem 0;
 }
-p a {
+:not(.gallery-content) p a {
   font-weight: 400;
   color: #000;
   text-decoration: underline;
@@ -50,63 +50,63 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+:not(.gallery-content) h6 {
   color: #000;
   text-transform: uppercase;
   letter-spacing: 0.0625em;
   margin: 3.2rem 0 1.6rem 0;
 }
-h1 {
+:not(.gallery-content) h1 {
   font-size: 3.2rem;
   line-height: 3.2rem;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  h1 {
+  :not(.gallery-content) h1 {
     font-size: 2.8rem;
     line-height: 2.8rem;
   }
 }
-h2 {
+:not(.gallery-content) h2 {
   font-size: 2.8rem;
   line-height: 2.8rem;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  h2 {
+  :not(.gallery-content) h2 {
     font-size: 2.4rem;
     line-height: 2.4rem;
   }
 }
-h3 {
+:not(.gallery-content) h3 {
   font-size: 2.4rem;
   line-height: 2.4rem;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  h3 {
+  :not(.gallery-content) h3 {
     font-size: 2rem;
     line-height: 2rem;
   }
 }
-h4 {
+:not(.gallery-content) h4 {
   font-size: 2.2rem;
   line-height: 2.2rem;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  h4 {
+  :not(.gallery-content) h4 {
     font-size: 1.8rem;
     line-height: 1.8rem;
   }
 }
-h5 {
+:not(.gallery-content) h5 {
   font-size: 2rem;
   line-height: 2rem;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  h5 {
+  :not(.gallery-content) h5 {
     font-size: 1.6rem;
     line-height: 1.6rem;
   }
 }
-h6 {
+:not(.gallery-content) h6 {
   font-size: 1.4rem;
   line-height: 1.4rem;
 }
@@ -127,28 +127,28 @@ h6 {
   font-style: italic;
 }
 th,
-td {
+:not(.gallery-content) td {
   padding: 1.6rem;
 }
-table {
+:not(.gallery-content) table {
   border-collapse: collapse;
 }
 table td,
-table th {
+:not(.gallery-content) table th {
   border: 2px solid #000;
 }
-table tr:first-child th {
+:not(.gallery-content) table tr:first-child th {
   border-top: 0;
 }
-table tr:last-child td {
+:not(.gallery-content) table tr:last-child td {
   border-bottom: 0;
 }
 table tr td:first-child,
-table tr th:first-child {
+:not(.gallery-content) table tr th:first-child {
   border-left: 0;
 }
 table tr td:last-child,
-table tr th:last-child {
+:not(.gallery-content) table tr th:last-child {
   border-right: 0;
 }
 :not(.gallery-content) img {
@@ -218,13 +218,13 @@ table tr th:last-child {
     transition: opacity 0.25s, max-height 0.15s linear;
   }
 }
-#menu-control {
+:not(.gallery-content) #menu-control {
   display: none;
 }
-.btn-mobile {
+:not(.gallery-content) .btn-mobile {
   display: none;
 }
-.mobile-menu-lang-separator-centered {
+:not(.gallery-content) .mobile-menu-lang-separator-centered {
   display: none;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
@@ -235,38 +235,38 @@ table tr th:last-child {
     cursor: pointer;
     margin-top: 1.5rem;
   }
-  #menu-control:checked + label .btn-mobile {
+  :not(.gallery-content) #menu-control:checked + label .btn-mobile {
     color: #E2DFE1;
   }
-  #menu-control:checked + label ul {
+  :not(.gallery-content) #menu-control:checked + label ul {
     visibility: visible;
     opacity: 1;
     max-height: 100rem;
   }
-  .navigation-item {
+  :not(.gallery-content) .navigation-item {
     position: relative;
   }
-  .mobile-menu-lang-separator-centered {
+  :not(.gallery-content) .mobile-menu-lang-separator-centered {
     display: block;
     padding-left: 7rem;
     padding-right: 7rem;
   }
-  .mobile-menu-lang-separator-full {
+  :not(.gallery-content) .mobile-menu-lang-separator-full {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
-  .multilingual-separator {
+  :not(.gallery-content) .multilingual-separator {
     display: none;
   }
-  .align-left {
+  :not(.gallery-content) .align-left {
     text-align: left;
     padding-left: 1rem;
   }
-  .align-right {
+  :not(.gallery-content) .align-right {
     text-align: right;
     padding-right: 1rem;
   }
-  .align-center {
+  :not(.gallery-content)   .align-center {
     text-align: center;
   }
 }
