@@ -151,7 +151,7 @@ table tr td:last-child,
 table tr th:last-child {
   border-right: 0;
 }
-img {
+:not(.gallery-content) img {
   max-width: 100%;
 }
 .wrapper {
@@ -827,7 +827,4 @@ code {
   border: 0;
   border-top: 1px dotted #a2a9b6;
   color: #000000;
-}
-.gallery-content img {
-  all: revert !important;
 }
