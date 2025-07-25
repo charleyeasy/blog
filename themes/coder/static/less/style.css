@@ -828,3 +828,6 @@ code {
   border-top: 1px dotted #a2a9b6;
   color: #000000;
 }
+.gallery-content * {
+  all: revert !important;
+}

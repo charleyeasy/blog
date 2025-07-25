@@ -29,9 +29,9 @@
     {{ end }}
     <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
     
-  
+    <link rel="stylesheet" href="{{ "less/style.css" | relURL }}">
     {{ if not (eq .RelPermalink "/blog/gallery/") }}
-      <link rel="stylesheet" href="{{ "less/style.css" | relURL }}">
+      
       <link rel="stylesheet" href="{{ "less/normalize.css" | relURL }}">
     {{ end }}
     
