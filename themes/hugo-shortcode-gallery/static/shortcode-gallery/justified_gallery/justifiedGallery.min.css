@@ -28,7 +28,12 @@
   .justified-gallery > div > img,
   .justified-gallery > figure > a > img,
   .justified-gallery > figure > img {
-    position: static;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    border: none;
     filter: none !important;
     opacity: 1 !important;
     width: 100% !important;
