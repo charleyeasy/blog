@@ -817,3 +817,6 @@ code {
 .chroma .gu {
   color: #9dabae;
 }
+.gallery-content * {
+  all: revert !important;
+}
