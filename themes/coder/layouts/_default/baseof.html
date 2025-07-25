@@ -60,16 +60,17 @@
   <body class="{{ if .Site.Params.rtl }}rtl{{ end }}">
     <main class="wrapper">
       {{ partial "header.html" . }}
-
+      {{ if (eq .RelPermalink "/blog/gallery/") }}
+      <div class="gallery-content">
+      {{ end }}
       <div class="content">
-        {{ if (eq .RelPermalink "/blog/gallery/") }}
-        <div class="gallery-content">
-        {{ end }}
+
         {{ block "content" . }}{{ end }}
-        {{ if (eq .RelPermalink "/blog/gallery/") }}
-        </div>
-        {{ end }}
+
       </div>
+      {{ if (eq .RelPermalink "/blog/gallery/") }}
+      </div>
+      {{ end }}
       <br>
       <br>
         <hr width=85% size=1px color=#ae9abe 　>
