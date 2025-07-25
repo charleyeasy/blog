@@ -57,20 +57,15 @@
     
   </head>
 
-  <body class="{{ if .Site.Params.rtl }}rtl{{ end }}">
+  <!-- <body class="{{ if .Site.Params.rtl }}rtl{{ end }}"> -->
+  <body class="{{ if (eq .RelPermalink '/blog/gallery/') }}gallery-page{{ end }}">
     <main class="wrapper">
       {{ partial "header.html" . }}
-      {{ if (eq .RelPermalink "/blog/gallery/") }}
-      <div class="gallery-content">
-      {{ end }}
       <div class="content">
 
         {{ block "content" . }}{{ end }}
 
       </div>
-      {{ if (eq .RelPermalink "/blog/gallery/") }}
-      </div>
-      {{ end }}
       <br>
       <br>
         <hr width=85% size=1px color=#ae9abe 　>
