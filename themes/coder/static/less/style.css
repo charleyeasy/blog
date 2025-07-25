@@ -154,7 +154,7 @@ table tr th:last-child {
 body:not(.gallery-page) img {
   max-width: 100%;
 }
-body:not(.gallery-page) .wrapper {
+.wrapper {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -431,12 +431,12 @@ body:not(.gallery-page) .container {
 .title {
   font-weight: bold;
 }
-a {
+body:not(.gallery-page) a {
   position: relative;
   transition: 0.5s;
 }
-a:before,
-a:after {
+body:not(.gallery-page) a:before,
+body:not(.gallery-page) a:after {
   position: absolute;
   bottom: -2px;
   content: "";
@@ -446,17 +446,17 @@ a:after {
   background: #F30034;
   transition: 0.5s;
 }
-a:before {
+body:not(.gallery-page) a:before {
   left: 50%;
 }
-a:after {
+body:not(.gallery-page) a:after {
   right: 50%;
 }
-a:hover {
+body:not(.gallery-page) a:hover {
   text-decoration: none;
 }
-a:hover:before,
-a:hover:after {
+body:not(.gallery-page) a:hover:before,
+body:not(.gallery-page) a:hover:after {
   width: 50%;
 }
 .private {
