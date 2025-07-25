@@ -227,19 +227,6 @@ Ordinal: {{ .Ordinal}}
 	}
 	*/
 	window.HSCGjQuery = window.jQuery;
-	document.addEventListener("DOMContentLoaded", function () {
-	const keepList = [
-		"shortcode-gallery/justified_gallery/justifiedGallery.min.css",
-		"shortcode-gallery/swipebox/css/swipebox.min.css"
-	];
-
-	document.querySelectorAll('link[rel="stylesheet"]').forEach(link => {
-		const href = link.getAttribute("href");
-		if (!keepList.some(keep => href.includes(keep))) {
-		link.remove();
-		}
-	});
-	});
 	// Isolate all our variables from other scripts.
 	// See: https://www.nicoespeon.com/en/2013/05/properly-isolate-variables-in-javascript/
 	// We also expect to get jQuery as a parameter, so that if a second instance of jQuery is loaded
