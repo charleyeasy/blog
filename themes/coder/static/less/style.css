@@ -1,13 +1,13 @@
 *,
 *:after,
-:not(.gallery-content) *:before {
+*:before {
   box-sizing: inherit;
 }
-:not(.gallery-content) html {
+html {
   box-sizing: border-box;
   font-size: 62.5%;
 }
-:not(.gallery-content) body {
+body {
   display: flex;
   color: #323232;
   background-color: #fefefe;
@@ -18,24 +18,24 @@
   line-height: 1.8em;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  :not(.gallery-content) body {
+  body {
     font-size: 1.4em;
     line-height: 1.6em;
   }
 }
-:not(.gallery-content) a {
+a {
   font-weight: 700;
   color: #000;
   text-decoration: none;
 }
-:not(.gallery-content) a:focus,
-:not(.gallery-content) a:hover {
+a:focus,
+a:hover {
   text-decoration: underline;
 }
-:not(.gallery-content) p {
+p {
   margin: 1.6rem 0 1.6rem 0;
 }
-:not(.gallery-content) p a {
+p a {
   font-weight: 400;
   color: #000;
   text-decoration: underline;
@@ -50,128 +50,128 @@ h2,
 h3,
 h4,
 h5,
-:not(.gallery-content) h6 {
+h6 {
   color: #000;
   text-transform: uppercase;
   letter-spacing: 0.0625em;
   margin: 3.2rem 0 1.6rem 0;
 }
-:not(.gallery-content) h1 {
+h1 {
   font-size: 3.2rem;
   line-height: 3.2rem;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  :not(.gallery-content) h1 {
+  h1 {
     font-size: 2.8rem;
     line-height: 2.8rem;
   }
 }
-:not(.gallery-content) h2 {
+h2 {
   font-size: 2.8rem;
   line-height: 2.8rem;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  :not(.gallery-content) h2 {
+  h2 {
     font-size: 2.4rem;
     line-height: 2.4rem;
   }
 }
-:not(.gallery-content) h3 {
+h3 {
   font-size: 2.4rem;
   line-height: 2.4rem;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  :not(.gallery-content) h3 {
+  h3 {
     font-size: 2rem;
     line-height: 2rem;
   }
 }
-:not(.gallery-content) h4 {
+h4 {
   font-size: 2.2rem;
   line-height: 2.2rem;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  :not(.gallery-content) h4 {
+  h4 {
     font-size: 1.8rem;
     line-height: 1.8rem;
   }
 }
-:not(.gallery-content) h5 {
+h5 {
   font-size: 2rem;
   line-height: 2rem;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  :not(.gallery-content) h5 {
+  h5 {
     font-size: 1.6rem;
     line-height: 1.6rem;
   }
 }
-:not(.gallery-content) h6 {
+h6 {
   font-size: 1.4rem;
   line-height: 1.4rem;
 }
-:not(.gallery-content) pre {
+pre {
   margin: 1.6rem 0 1rem 0;
   padding: 1.6rem;
   overflow-x: auto;
 }
-:not(.gallery-content) code {
+code {
   display: inline-block;
   background-color: #000;
   color: #fefefe;
   padding: 0.4rem 0.8rem 0.4rem 0.8rem;
 }
-:not(.gallery-content) blockquote {
+blockquote {
   border-left: 2px solid #dcdcdc;
   padding-left: 1.6rem;
   font-style: italic;
 }
 th,
-:not(.gallery-content) td {
+td {
   padding: 1.6rem;
 }
-:not(.gallery-content) table {
+table {
   border-collapse: collapse;
 }
 table td,
-:not(.gallery-content) table th {
+table th {
   border: 2px solid #000;
 }
-:not(.gallery-content) table tr:first-child th {
+table tr:first-child th {
   border-top: 0;
 }
-:not(.gallery-content) table tr:last-child td {
+table tr:last-child td {
   border-bottom: 0;
 }
 table tr td:first-child,
-:not(.gallery-content) table tr th:first-child {
+table tr th:first-child {
   border-left: 0;
 }
 table tr td:last-child,
-:not(.gallery-content) table tr th:last-child {
+table tr th:last-child {
   border-right: 0;
 }
-:not(.gallery-content) img {
+img {
   max-width: 100%;
 }
-:not(.gallery-content) .wrapper {
+.wrapper {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   width: 100%;
 }
-:not(.gallery-content) .container {
+.container {
   margin: 0 auto;
   max-width: 120rem;
   width: 100%;
   padding-left: 2rem;
   padding-right: 2rem;
 }
-:not(.gallery-content) .navigation {
+.navigation {
   height: 6rem;
   width: 100%;
 }
-:not(.gallery-content) .navigation a {
+.navigation a {
   display: inline;
   font-size: 1.6rem;
   text-transform: uppercase;
@@ -179,31 +179,31 @@ table tr td:last-child,
   letter-spacing: 0.1rem;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
-  :not(.gallery-content) .navigation a {
+  .navigation a {
     font-size: 1.6rem;
   }
 }
-:not(.gallery-content) .navigation ul {
+.navigation ul {
   list-style: none;
   margin-bottom: 0;
   margin-top: 0;
 }
-:not(.gallery-content) .navigation ul li {
+.navigation ul li {
   float: left;
   margin: 0;
   position: relative;
 }
-:not(.gallery-content) .navigation ul li a {
+.navigation ul li a {
   margin-left: 1rem;
   margin-right: 1rem;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
-  :not(.gallery-content) .navigation ul li {
+  .navigation ul li {
     float: none !important;
   }
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
-  :not(.gallery-content) .navigation ul {
+  .navigation ul {
     visibility: hidden;
     opacity: 0;
     max-height: 0;
@@ -218,225 +218,225 @@ table tr td:last-child,
     transition: opacity 0.25s, max-height 0.15s linear;
   }
 }
-:not(.gallery-content) #menu-control {
+#menu-control {
   display: none;
 }
-:not(.gallery-content) .btn-mobile {
+.btn-mobile {
   display: none;
 }
-:not(.gallery-content) .mobile-menu-lang-separator-centered {
+.mobile-menu-lang-separator-centered {
   display: none;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
-  :not(.gallery-content) .btn-mobile {
+  .btn-mobile {
     display: block;
     font-size: 2rem;
     color: black;
     cursor: pointer;
     margin-top: 1.5rem;
   }
-  :not(.gallery-content) #menu-control:checked + label .btn-mobile {
+  #menu-control:checked + label .btn-mobile {
     color: #E2DFE1;
   }
-  :not(.gallery-content) #menu-control:checked + label ul {
+  #menu-control:checked + label ul {
     visibility: visible;
     opacity: 1;
     max-height: 100rem;
   }
-  :not(.gallery-content) .navigation-item {
+  .navigation-item {
     position: relative;
   }
-  :not(.gallery-content) .mobile-menu-lang-separator-centered {
+  .mobile-menu-lang-separator-centered {
     display: block;
     padding-left: 7rem;
     padding-right: 7rem;
   }
-  :not(.gallery-content) .mobile-menu-lang-separator-full {
+  .mobile-menu-lang-separator-full {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
-  :not(.gallery-content) .multilingual-separator {
+  .multilingual-separator {
     display: none;
   }
-  :not(.gallery-content) .align-left {
+  .align-left {
     text-align: left;
     padding-left: 1rem;
   }
-  :not(.gallery-content) .align-right {
+  .align-right {
     text-align: right;
     padding-right: 1rem;
   }
-  :not(.gallery-content)   .align-center {
+  .align-center {
     text-align: center;
   }
 }
-:not(.gallery-content) .content {
+.content {
   flex: 1;
   margin-top: 1.6rem;
   margin-bottom: 3.2rem;
 }
-:not(.gallery-content) .content article header {
+.content article header {
   margin-top: 3.2rem;
   margin-bottom: 3.2rem;
 }
-:not(.gallery-content) .content article header h1,
-:not(.gallery-content) .content article header h2 {
+.content article header h1,
+.content article header h2 {
   margin: 0;
 }
-:not(.gallery-content) .content article header h2 {
+.content article header h2 {
   margin-top: 1rem;
   font-size: 1.8rem;
   color: #323232;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  :not(.gallery-content) .content article header h2 {
+  .content article header h2 {
     font-size: 1.6rem;
   }
 }
-:not(.gallery-content) .avatar img {
+.avatar img {
   width: 20rem;
   height: auto;
   border-radius: 50%;
 }
 @media only screen and (max-device-width: 768px) {
-  :not(.gallery-content) .avatar img {
+  .avatar img {
     width: 10rem;
   }
 }
-:not(.gallery-content) .list ul {
+.list ul {
   margin: 3.2rem 0 3.2rem 0;
   list-style: none;
   padding: 0;
 }
-:not(.gallery-content) .list ul li {
+.list ul li {
   font-size: 1.6rem;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  :not(.gallery-content) .list ul li {
+  .list ul li {
     font-size: 1.4rem;
     margin: 1.6rem 0 1.6rem 0;
   }
 }
-:not(.gallery-content) .list ul li span {
+.list ul li span {
   display: inline-block;
   text-align: right;
   width: 20rem;
   margin-right: 3rem;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  :not(.gallery-content) .list ul li span {
+  .list ul li span {
     display: block;
     text-align: left;
   }
 }
-:not(.gallery-content) .list ul li a {
+.list ul li a {
   text-transform: uppercase;
 }
-:not(.gallery-content) .pagination {
+.pagination {
   margin-top: 6rem;
   text-align: center;
 }
-:not(.gallery-content) .pagination li {
+.pagination li {
   display: inline;
   text-align: center;
 }
-:not(.gallery-content) .pagination li span {
+.pagination li span {
   margin: 0;
   text-align: center;
   width: 3.2rem;
 }
-:not(.gallery-content) .pagination li a span {
+.pagination li a span {
   margin: 0;
   text-align: center;
   width: 3.2rem;
 }
-:not(.gallery-content) .centered {
+.centered {
   display: flex;
   height: 100%;
   align-items: center;
   justify-content: center;
 }
-:not(.gallery-content) .centered .about {
+.centered .about {
   text-align: center;
 }
-:not(.gallery-content) .centered .about h1 {
+.centered .about h1 {
   margin-top: 2rem;
   margin-bottom: 0.5rem;
 }
-:not(.gallery-content) .centered .about h2 {
+.centered .about h2 {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
   font-size: 2.4rem;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  :not(.gallery-content) .centered .about h2 {
+  .centered .about h2 {
     font-size: 2rem;
   }
 }
-:not(.gallery-content) .centered .about ul {
+.centered .about ul {
   list-style: none;
   margin: 3rem 0 1rem 0;
   padding: 0;
 }
-:not(.gallery-content) .centered .about ul li {
+.centered .about ul li {
   display: inline-block;
   position: relative;
 }
-:not(.gallery-content) .centered .about ul li a {
+.centered .about ul li a {
   text-transform: uppercase;
   margin-left: 1rem;
   margin-right: 1rem;
   font-size: 1.6rem;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  :not(.gallery-content) .centered .about ul li a {
+  .centered .about ul li a {
     font-size: 1.4rem;
   }
 }
-:not(.gallery-content) .centered .error {
+.centered .error {
   text-align: center;
 }
-:not(.gallery-content) .centered .error h1 {
+.centered .error h1 {
   margin-top: 2rem;
   margin-bottom: 0.5rem;
   font-size: 4.6rem;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  :not(.gallery-content) .centered .error h1 {
+  .centered .error h1 {
     font-size: 3.2rem;
   }
 }
-:not(.gallery-content) .centered .error h2 {
+.centered .error h2 {
   margin-top: 2rem;
   margin-bottom: 3.2rem;
   font-size: 3.2rem;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  :not(.gallery-content) .centered .error h2 {
+  .centered .error h2 {
     font-size: 2.8rem;
   }
 }
-:not(.gallery-content) .footer {
+.footer {
   width: 100%;
   text-align: center;
   line-height: 2rem;
   margin-bottom: 1rem;
 }
-:not(.gallery-content) .float-right {
+.float-right {
   float: right;
 }
-:not(.gallery-content) .float-left {
+.float-left {
   float: left;
 }
-:not(.gallery-content) .title {
+.title {
   font-weight: bold;
 }
-:not(.gallery-content) a {
+a {
   position: relative;
   transition: 0.5s;
 }
-:not(.gallery-content) a:before,
-:not(.gallery-content) a:after {
+a:before,
+a:after {
   position: absolute;
   bottom: -2px;
   content: "";
@@ -446,36 +446,36 @@ table tr td:last-child,
   background: #F30034;
   transition: 0.5s;
 }
-:not(.gallery-content) a:before {
+a:before {
   left: 50%;
 }
-:not(.gallery-content) a:after {
+a:after {
   right: 50%;
 }
-:not(.gallery-content) a:hover {
+a:hover {
   text-decoration: none;
 }
-:not(.gallery-content) a:hover:before,
-:not(.gallery-content) a:hover:after {
+a:hover:before,
+a:hover:after {
   width: 50%;
 }
-:not(.gallery-content) .private {
+.private {
   display: none;
 }
-:not(.gallery-content) .private-inner {
+.private-inner {
   display: table-cell;
 }
-:not(.gallery-content) .portfolio .portfolio-inner {
+.portfolio .portfolio-inner {
   display: flex;
   align-items: stretch;
 }
-:not(.gallery-content) .portfolio .portfolio-inner .portfolio-image {
+.portfolio .portfolio-inner .portfolio-image {
   display: flex;
   align-items: center;
   margin-right: 5%;
   width: 45%;
 }
-:not(.gallery-content) .portfolio .portfolio-inner .portfolio-content {
+.portfolio .portfolio-inner .portfolio-content {
   flex: 1;
 }
 #privateTrigger {
@@ -485,12 +485,12 @@ table tr td:last-child,
 #privateTrigger:hover:after {
   width: 0;
 }
-:not(.gallery-content) .navigation {
+.navigation {
   height: auto;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.08);
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
-:not(.gallery-content) .fixed-bar {
+.fixed-bar {
   position: fixed;
   bottom: 0;
   margin: 0;
@@ -499,7 +499,7 @@ table tr td:last-child,
   border-top: 1px solid rgba(0, 0, 0, 0.05);
   background: #fefefe;
 }
-:not(.gallery-content) .fixed-bar .container {
+.fixed-bar .container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -827,4 +827,7 @@ code {
   border: 0;
   border-top: 1px dotted #a2a9b6;
   color: #000000;
+}
+.gallery-content * {
+  all: unset;
 }
