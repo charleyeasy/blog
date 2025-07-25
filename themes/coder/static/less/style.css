@@ -154,7 +154,7 @@ table tr th:last-child {
 body:not(.gallery-page) img {
   max-width: 100%;
 }
-.wrapper {
+body:not(.gallery-page) .wrapper {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
