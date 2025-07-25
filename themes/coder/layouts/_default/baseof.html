@@ -58,7 +58,7 @@
   </head>
 
   <!-- <body class="{{ if .Site.Params.rtl }}rtl{{ end }}"> -->
-  <body class="{{ if (eq .RelPermalink '/blog/gallery/') }}gallery-page{{ end }}">
+  <body class='{{ if (eq .RelPermalink "/blog/gallery/") }}gallery-page{{ end }}'>
     <main class="wrapper">
       {{ partial "header.html" . }}
       <div class="content">
