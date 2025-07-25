@@ -110,18 +110,18 @@ h6 {
   font-size: 1.4rem;
   line-height: 1.4rem;
 }
-pre {
+:not(.gallery-content) pre {
   margin: 1.6rem 0 1rem 0;
   padding: 1.6rem;
   overflow-x: auto;
 }
-code {
+:not(.gallery-content) code {
   display: inline-block;
   background-color: #000;
   color: #fefefe;
   padding: 0.4rem 0.8rem 0.4rem 0.8rem;
 }
-blockquote {
+:not(.gallery-content) blockquote {
   border-left: 2px solid #dcdcdc;
   padding-left: 1.6rem;
   font-style: italic;
@@ -154,24 +154,24 @@ table tr th:last-child {
 :not(.gallery-content) img {
   max-width: 100%;
 }
-.wrapper {
+:not(.gallery-content) .wrapper {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   width: 100%;
 }
-.container {
+:not(.gallery-content) .container {
   margin: 0 auto;
   max-width: 120rem;
   width: 100%;
   padding-left: 2rem;
   padding-right: 2rem;
 }
-.navigation {
+:not(.gallery-content) .navigation {
   height: 6rem;
   width: 100%;
 }
-.navigation a {
+:not(.gallery-content) .navigation a {
   display: inline;
   font-size: 1.6rem;
   text-transform: uppercase;
@@ -179,31 +179,31 @@ table tr th:last-child {
   letter-spacing: 0.1rem;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
-  .navigation a {
+  :not(.gallery-content) .navigation a {
     font-size: 1.6rem;
   }
 }
-.navigation ul {
+:not(.gallery-content) .navigation ul {
   list-style: none;
   margin-bottom: 0;
   margin-top: 0;
 }
-.navigation ul li {
+:not(.gallery-content) .navigation ul li {
   float: left;
   margin: 0;
   position: relative;
 }
-.navigation ul li a {
+:not(.gallery-content) .navigation ul li a {
   margin-left: 1rem;
   margin-right: 1rem;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
-  .navigation ul li {
+  :not(.gallery-content) .navigation ul li {
     float: none !important;
   }
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
-  .navigation ul {
+  :not(.gallery-content) .navigation ul {
     visibility: hidden;
     opacity: 0;
     max-height: 0;
@@ -228,7 +228,7 @@ table tr th:last-child {
   display: none;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
-  .btn-mobile {
+  :not(.gallery-content) .btn-mobile {
     display: block;
     font-size: 2rem;
     color: black;
@@ -270,173 +270,173 @@ table tr th:last-child {
     text-align: center;
   }
 }
-.content {
+:not(.gallery-content) .content {
   flex: 1;
   margin-top: 1.6rem;
   margin-bottom: 3.2rem;
 }
-.content article header {
+:not(.gallery-content) .content article header {
   margin-top: 3.2rem;
   margin-bottom: 3.2rem;
 }
-.content article header h1,
-.content article header h2 {
+:not(.gallery-content) .content article header h1,
+:not(.gallery-content) .content article header h2 {
   margin: 0;
 }
-.content article header h2 {
+:not(.gallery-content) .content article header h2 {
   margin-top: 1rem;
   font-size: 1.8rem;
   color: #323232;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  .content article header h2 {
+  :not(.gallery-content) .content article header h2 {
     font-size: 1.6rem;
   }
 }
-.avatar img {
+:not(.gallery-content) .avatar img {
   width: 20rem;
   height: auto;
   border-radius: 50%;
 }
 @media only screen and (max-device-width: 768px) {
-  .avatar img {
+  :not(.gallery-content) .avatar img {
     width: 10rem;
   }
 }
-.list ul {
+:not(.gallery-content) .list ul {
   margin: 3.2rem 0 3.2rem 0;
   list-style: none;
   padding: 0;
 }
-.list ul li {
+:not(.gallery-content) .list ul li {
   font-size: 1.6rem;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  .list ul li {
+  :not(.gallery-content) .list ul li {
     font-size: 1.4rem;
     margin: 1.6rem 0 1.6rem 0;
   }
 }
-.list ul li span {
+:not(.gallery-content) .list ul li span {
   display: inline-block;
   text-align: right;
   width: 20rem;
   margin-right: 3rem;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  .list ul li span {
+  :not(.gallery-content) .list ul li span {
     display: block;
     text-align: left;
   }
 }
-.list ul li a {
+:not(.gallery-content) .list ul li a {
   text-transform: uppercase;
 }
-.pagination {
+:not(.gallery-content) .pagination {
   margin-top: 6rem;
   text-align: center;
 }
-.pagination li {
+:not(.gallery-content) .pagination li {
   display: inline;
   text-align: center;
 }
-.pagination li span {
+:not(.gallery-content) .pagination li span {
   margin: 0;
   text-align: center;
   width: 3.2rem;
 }
-.pagination li a span {
+:not(.gallery-content) .pagination li a span {
   margin: 0;
   text-align: center;
   width: 3.2rem;
 }
-.centered {
+:not(.gallery-content) .centered {
   display: flex;
   height: 100%;
   align-items: center;
   justify-content: center;
 }
-.centered .about {
+:not(.gallery-content) .centered .about {
   text-align: center;
 }
-.centered .about h1 {
+:not(.gallery-content) .centered .about h1 {
   margin-top: 2rem;
   margin-bottom: 0.5rem;
 }
-.centered .about h2 {
+:not(.gallery-content) .centered .about h2 {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
   font-size: 2.4rem;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  .centered .about h2 {
+  :not(.gallery-content) .centered .about h2 {
     font-size: 2rem;
   }
 }
-.centered .about ul {
+:not(.gallery-content) .centered .about ul {
   list-style: none;
   margin: 3rem 0 1rem 0;
   padding: 0;
 }
-.centered .about ul li {
+:not(.gallery-content) .centered .about ul li {
   display: inline-block;
   position: relative;
 }
-.centered .about ul li a {
+:not(.gallery-content) .centered .about ul li a {
   text-transform: uppercase;
   margin-left: 1rem;
   margin-right: 1rem;
   font-size: 1.6rem;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  .centered .about ul li a {
+  :not(.gallery-content) .centered .about ul li a {
     font-size: 1.4rem;
   }
 }
-.centered .error {
+:not(.gallery-content) .centered .error {
   text-align: center;
 }
-.centered .error h1 {
+:not(.gallery-content) .centered .error h1 {
   margin-top: 2rem;
   margin-bottom: 0.5rem;
   font-size: 4.6rem;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  .centered .error h1 {
+  :not(.gallery-content) .centered .error h1 {
     font-size: 3.2rem;
   }
 }
-.centered .error h2 {
+:not(.gallery-content) .centered .error h2 {
   margin-top: 2rem;
   margin-bottom: 3.2rem;
   font-size: 3.2rem;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  .centered .error h2 {
+  :not(.gallery-content) .centered .error h2 {
     font-size: 2.8rem;
   }
 }
-.footer {
+:not(.gallery-content) .footer {
   width: 100%;
   text-align: center;
   line-height: 2rem;
   margin-bottom: 1rem;
 }
-.float-right {
+:not(.gallery-content) .float-right {
   float: right;
 }
-.float-left {
+:not(.gallery-content) .float-left {
   float: left;
 }
-.title {
+:not(.gallery-content) .title {
   font-weight: bold;
 }
-a {
+:not(.gallery-content) a {
   position: relative;
   transition: 0.5s;
 }
-a:before,
-a:after {
+:not(.gallery-content) a:before,
+:not(.gallery-content) a:after {
   position: absolute;
   bottom: -2px;
   content: "";
@@ -446,36 +446,36 @@ a:after {
   background: #F30034;
   transition: 0.5s;
 }
-a:before {
+:not(.gallery-content) a:before {
   left: 50%;
 }
-a:after {
+:not(.gallery-content) a:after {
   right: 50%;
 }
-a:hover {
+:not(.gallery-content) a:hover {
   text-decoration: none;
 }
-a:hover:before,
-a:hover:after {
+:not(.gallery-content) a:hover:before,
+:not(.gallery-content) a:hover:after {
   width: 50%;
 }
-.private {
+:not(.gallery-content) .private {
   display: none;
 }
-.private-inner {
+:not(.gallery-content) .private-inner {
   display: table-cell;
 }
-.portfolio .portfolio-inner {
+:not(.gallery-content) .portfolio .portfolio-inner {
   display: flex;
   align-items: stretch;
 }
-.portfolio .portfolio-inner .portfolio-image {
+:not(.gallery-content) .portfolio .portfolio-inner .portfolio-image {
   display: flex;
   align-items: center;
   margin-right: 5%;
   width: 45%;
 }
-.portfolio .portfolio-inner .portfolio-content {
+:not(.gallery-content) .portfolio .portfolio-inner .portfolio-content {
   flex: 1;
 }
 #privateTrigger {
@@ -485,12 +485,12 @@ a:hover:after {
 #privateTrigger:hover:after {
   width: 0;
 }
-.navigation {
+:not(.gallery-content) .navigation {
   height: auto;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.08);
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
-.fixed-bar {
+:not(.gallery-content) .fixed-bar {
   position: fixed;
   bottom: 0;
   margin: 0;
@@ -499,7 +499,7 @@ a:hover:after {
   border-top: 1px solid rgba(0, 0, 0, 0.05);
   background: #fefefe;
 }
-.fixed-bar .container {
+:not(.gallery-content) .fixed-bar .container {
   display: flex;
   justify-content: center;
   align-items: center;
