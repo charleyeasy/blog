@@ -828,3 +828,10 @@ code {
   border-top: 1px dotted #a2a9b6;
   color: #000000;
 }
+.gallery-page a img {
+  transition: transform 0.4s ease;
+}
+
+.gallery-page a:hover img {
+  transform: scale(1.05);
+}
