@@ -1,8 +1,8 @@
 ---
 title:      "Nijika"
 ---
-# Nijika My Wife
 ***
+# Nijika My Wife
 {{<gallery
     globalMatch="nijika/*"
     randomize=true

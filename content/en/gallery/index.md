@@ -1,7 +1,6 @@
 ---
 title:      "Gallery"
 ---
-# Gallery
 ***
 {{<gallery
     globalMatch="sketch/*"
