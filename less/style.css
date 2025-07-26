@@ -431,7 +431,7 @@ body:not(.gallery-page) img {
 .title {
   font-weight: bold;
 }
-body:not(.gallery-page) a {
+a {
   position: relative;
   transition: 0.5s;
 }
