@@ -829,7 +829,7 @@ code {
   color: #000000;
 }
 .gallery-page a img {
-  transition: transform 2s ease;
+  transition: transform 2s ease !important;
 }
 
 .gallery-page a:hover img {
