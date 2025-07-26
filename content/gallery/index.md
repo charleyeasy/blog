@@ -1,11 +1,11 @@
-# 作品畫廊
+# 作品集
 ***
 {{<gallery
     globalMatch="sketch/*"
     sortOrder="asc"
-    rowHeight="250"
+    rowHeight="220"
     margins="5"
-    thumbnailResizeOptions="600x600 q90 Lanczos"
+    thumbnailResizeOptions="800x800 q90 Lanczos"
     showExif=true
 	previewType="blur"
     embedPreview=true
