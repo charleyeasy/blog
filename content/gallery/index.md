@@ -1,4 +1,7 @@
-# 作品集
+---
+title:      "作品畫廊"
+---
+# 作品畫廊
 ***
 {{<gallery
     globalMatch="sketch/*"

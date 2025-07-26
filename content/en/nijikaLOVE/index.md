@@ -1,3 +1,6 @@
+---
+title:      "Nijika"
+---
 # Nijika My Wife
 ***
 {{<gallery

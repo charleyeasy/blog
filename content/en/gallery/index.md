@@ -1,3 +1,6 @@
+---
+title:      "Gallery"
+---
 # Gallery
 ***
 {{<gallery

@@ -204,7 +204,7 @@ googleAnalytics = "G-QSLC3Q69GK"
                 weight = 8
                 url = "nijikalove"
 	    [[languages.ch.menu.main]]
-                name = "作品集"
+                name = "作品畫廊"
                 weight = 9
                 url = "gallery"
 		
