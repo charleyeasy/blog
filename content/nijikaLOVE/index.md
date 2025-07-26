@@ -12,7 +12,7 @@
     rowHeight="250"
     margins="5"
     thumbnailResizeOptions="1600x1600 q90 Lanczos"
-    showExif=true
+    showExif=false
 	previewType="blur"
     embedPreview=true
 	lastRow="nojustify"
@@ -26,7 +26,7 @@
     rowHeight="250"
     margins="5"
     thumbnailResizeOptions="1600x1600 q90 Lanczos"
-    showExif=true
+    showExif=false
 	previewType="blur"
     embedPreview=true
 	lastRow="nojustify"
