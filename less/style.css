@@ -431,7 +431,7 @@ body:not(.gallery-page) img {
 .title {
   font-weight: bold;
 }
-a {
+body:not(.gallery-page) a {
   position: relative;
   transition: 0.5s;
 }
@@ -490,6 +490,7 @@ body:not(.gallery-page) a:hover:after {
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.08);
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
+
 .fixed-bar {
   position: fixed;
   bottom: 0;
@@ -834,4 +835,9 @@ code {
 
 .gallery-page a:hover img {
   transform: scale(1.2);
+}
+
+.gallery-page .navigation a {
+  position: relative;
+  transition: 0.5s;
 }
