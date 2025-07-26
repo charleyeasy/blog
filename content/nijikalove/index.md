@@ -15,6 +15,7 @@
     showExif=false
 	previewType="blur"
     embedPreview=true
+	lastRow="nojustify"
     loadJQuery=true
 >}}  
 ***
