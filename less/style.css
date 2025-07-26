@@ -460,10 +460,11 @@ body:not(.gallery-page) a:hover:after {
   width: 50%;
 }
 body:not(.gallery-page) a img {
+  max-width: 95%;
   transition: transform 1s ease, filter 1s ease-in-out !important;
 }
 body:not(.gallery-page) a:hover img {
-  transform: scale(1.2);
+  transform: scale(1.05);
 }
 .private {
   display: none;
