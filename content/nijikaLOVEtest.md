@@ -35,4 +35,4 @@ title:      "下北澤大天使"
 	lastRow="nojustify"
     loadJQuery=true
 >}}  
-<!--more-->
+
