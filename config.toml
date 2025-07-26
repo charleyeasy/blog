@@ -147,7 +147,7 @@ googleAnalytics = "G-QSLC3Q69GK"
             [[languages.en.menu.main]]
                 name = "Nijika"
                 weight = 7
-                url = "gallery"
+                url = "nijikaLOVE"
             [[languages.en.menu.main]]
                 name = "Gallery"
                 weight = 8
