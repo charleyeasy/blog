@@ -461,6 +461,7 @@ body:not(.gallery-page) a:hover:after {
 }
 body:not(.gallery-page) a img {
   max-width: 95%;
+  display: none;
   transition: transform 1s ease, filter 1s ease-in-out !important;
 }
 body:not(.gallery-page) a:hover img {
