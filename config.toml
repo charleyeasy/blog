@@ -132,7 +132,7 @@ googleAnalytics = "G-QSLC3Q69GK"
                 weight = 2
                 url = "autobiography"
             [[languages.en.menu.main]]
-                name = "curriculum vitae"
+                name = "Resume"
                 weight = 1
                 url = "curriculumvitae"
             [[languages.en.menu.main]]
@@ -141,12 +141,16 @@ googleAnalytics = "G-QSLC3Q69GK"
                 url = "transcript"
 
             [[languages.en.menu.main]]
-                name = "sketch diary"
+                name = "sketch"
                 weight = 6
                 url = "sketch"
             [[languages.en.menu.main]]
-                name = "Gallery"
+                name = "Nijika"
                 weight = 7
+                url = "gallery"
+            [[languages.en.menu.main]]
+                name = "Gallery"
+                weight = 8
                 url = "gallery"
     [languages.ch]
         languagecode = "ch"
@@ -196,8 +200,12 @@ googleAnalytics = "G-QSLC3Q69GK"
                 weight = 7
                 url = "sketch"
 	    [[languages.ch.menu.main]]
-                name = "作品集"
+                name = "下北澤大天使"
                 weight = 8
+                url = "nijikaLOVE"
+	    [[languages.ch.menu.main]]
+                name = "作品集"
+                weight = 9
                 url = "gallery"
 		
 
