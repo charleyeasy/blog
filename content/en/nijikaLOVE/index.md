@@ -1,14 +1,29 @@
-# Gallery
+# Nijika My Wife
 ***
 {{<gallery
-    globalMatch="sketch/*"
-    sortOrder="asc"
-    rowHeight="220"
+    globalMatch="nijika/*"
+    sortOrder="random"
+    rowHeight="250"
     margins="5"
     thumbnailResizeOptions="1600x1600 q90 Lanczos"
-    showExif=true
+    showExif=false
 	previewType="blur"
     embedPreview=true
 	lastRow="nojustify"
     loadJQuery=true
->}}
+>}}  
+***
+# Photos with my wifes  	
+{{<gallery
+    globalMatch="selfie/*"
+    sortOrder="random"
+    rowHeight="250"
+    margins="5"
+    thumbnailResizeOptions="1600x1600 q90 Lanczos"
+    showExif=false
+	previewType="blur"
+    embedPreview=true
+	lastRow="nojustify"
+    loadJQuery=true
+>}}  
+

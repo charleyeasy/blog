@@ -147,7 +147,7 @@ googleAnalytics = "G-QSLC3Q69GK"
             [[languages.en.menu.main]]
                 name = "Nijika"
                 weight = 7
-                url = "nijikaLOVE"
+                url = "nijikalove"
             [[languages.en.menu.main]]
                 name = "Gallery"
                 weight = 8
@@ -202,7 +202,7 @@ googleAnalytics = "G-QSLC3Q69GK"
 	    [[languages.ch.menu.main]]
                 name = "下北澤大天使"
                 weight = 8
-                url = "nijikaLOVE"
+                url = "nijikalove"
 	    [[languages.ch.menu.main]]
                 name = "作品集"
                 weight = 9

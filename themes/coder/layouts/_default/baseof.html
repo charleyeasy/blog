@@ -33,7 +33,10 @@
     <link rel="stylesheet" href="{{ "less/style.css" | relURL }}">
 
     {{ $pageClass := "normal-page" }}
-    {{ if or (eq .RelPermalink "/blog/gallery/") (eq .RelPermalink "/blog/en/gallery/") }}
+    {{ if or (eq .RelPermalink "/blog/gallery/")
+    (or (eq .RelPermalink "/blog/en/gallery/")
+        (or (eq .RelPermalink "/blog/nijikalove/")
+            (eq .RelPermalink "/blog/en/nijikalove/"))) }}
       {{ $pageClass = "gallery-page" }}
     {{ end }}
     
