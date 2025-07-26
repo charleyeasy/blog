@@ -829,9 +829,9 @@ code {
   color: #000000;
 }
 .gallery-page a img {
-  transition: transform 1s ease;
+  transition: transform 2s ease;
 }
 
 .gallery-page a:hover img {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
