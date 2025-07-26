@@ -31,9 +31,10 @@
     
     <link rel="stylesheet" href="{{ "less/normalize.css" | relURL }}">
     <link rel="stylesheet" href="{{ "less/style.css" | relURL }}">
-    {{ if not (eq .RelPermalink "/blog/gallery/") }}
-      
-      
+
+    {{ $pageClass := "normal-page" }}
+    {{ if or (eq .RelPermalink "/blog/gallery/") (eq .RelPermalink "/blog/en/gallery/") }}
+      {{ $pageClass = "gallery-page" }}
     {{ end }}
     
 
@@ -58,7 +59,7 @@
   </head>
 
   <!-- <body class="{{ if .Site.Params.rtl }}rtl{{ end }}"> -->
-  <body class='{{ if (eq .RelPermalink "/blog/gallery/") }}gallery-page{{ end }}'>
+  <body class='{{ $pageClass }}'>
     <main class="wrapper">
       {{ partial "header.html" . }}
       <div class="content">
