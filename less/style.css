@@ -446,6 +446,10 @@ body:not(.gallery-page) a:after {
   background: #F30034;
   transition: 0.5s;
 }
+body:not(.gallery-page) a:has(img):before,
+body:not(.gallery-page) a:has(img):after {
+  bottom: -3px;
+}
 body:not(.gallery-page) a:before {
   left: 50%;
 }
