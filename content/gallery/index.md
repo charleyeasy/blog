@@ -9,6 +9,5 @@
     showExif=true
 	previewType="blur"
     embedPreview=true
-	lastRow="nojustify"
     loadJQuery=true
 >}}

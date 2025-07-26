@@ -9,7 +9,6 @@
     showExif=false
 	previewType="blur"
     embedPreview=true
-	lastRow="nojustify"
     loadJQuery=true
 >}}  
 ***
@@ -23,7 +22,6 @@
     showExif=false
 	previewType="blur"
     embedPreview=true
-	lastRow="nojustify"
     loadJQuery=true
 >}}  
 
