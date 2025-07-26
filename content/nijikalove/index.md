@@ -8,7 +8,7 @@
 ***
 {{<gallery
     globalMatch="nijika/*"
-    sortOrder="random"
+    randomize=true
     rowHeight="250"
     margins="5"
     thumbnailResizeOptions="1600x1600 q90 Lanczos"
@@ -22,7 +22,7 @@
 順便附上跟老婆的合照
 {{<gallery
     globalMatch="selfie/*"
-    sortOrder="random"
+    sortOrder="asc"
     rowHeight="250"
     margins="5"
     thumbnailResizeOptions="1600x1600 q90 Lanczos"
