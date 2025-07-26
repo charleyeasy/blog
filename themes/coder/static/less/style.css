@@ -160,7 +160,7 @@ body:not(.gallery-page) img {
   min-height: 100vh;
   width: 100%;
 }
-body:not(.gallery-page) .container {
+.container {
   margin: 0 auto;
   max-width: 120rem;
   width: 100%;
