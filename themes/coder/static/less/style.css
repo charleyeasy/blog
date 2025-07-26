@@ -448,7 +448,7 @@ body:not(.gallery-page) a:after {
 }
 body:not(.gallery-page) a:has(img):before,
 body:not(.gallery-page) a:has(img):after {
-  bottom: -3px;
+  bottom: -5px;
 }
 body:not(.gallery-page) a:before {
   left: 50%;
@@ -468,7 +468,7 @@ body:not(.gallery-page) a img {
   transition: transform 1s ease, filter 1s ease-in-out !important;
 }
 body:not(.gallery-page) a:hover img {
-  transform: scale(1.015);
+  transform: scale(1.02);
 }
 .private {
   display: none;
